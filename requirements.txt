@@ -1,0 +1,6 @@
+openai==3.32.0
+python-dotenv==1.2.4
+pymupdf==1.28.2
+pydantic==2.14.1
+# optional, only for PDF_READER = "unstructured" (large install):
+# unstructured[pdf]==0.18.32

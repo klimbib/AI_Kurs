@@ -1,0 +1,19 @@
+[
+  {
+    "file": "PDF file name, e.g. IRF540N_Infineon.pdf",
+    "part_number": "main part number, e.g. IRF540N",
+    "component": "enum: transistor | diode",
+    "type": "e.g. N-channel MOSFET, P-channel MOSFET, NPN, PNP, NPN Darlington",
+    "max_temperature_c": "maximum operating junction temperature in °C (number, 125-200)",
+    "max_voltage": {
+      "value_v": "maximum voltage in V (number, 5-200)",
+      "symbol": "symbol from the datasheet, e.g. VDSS or VCEO",
+      "temperature_c": "temperature in °C at which the value is specified (number)"
+    },
+    "max_current": {
+      "value_a": "maximum continuous current in A (number, 0.01-100)",
+      "symbol": "symbol from the datasheet, e.g. ID or IC",
+      "temperature_c": "temperature in °C at which the value is specified (number)"
+    }
+  }
+]

@@ -1,0 +1,63 @@
+Prompt file: prompts/extract_V2.txt
+Golden file: data/golden.json
+
+=== Model: openai/gpt-4o-mini ===
+Settings: temperature=0  top_p=1  prompt=prompts/extract_V2.txt  PDF_READER=pymupdf  UNSTRUCTURED_STRATEGY=fast
+Pydantic validation (26 sheets): ok 96% (25)  corrected 4% (1)  failed 0% (0)  error 0% (0)
+Valid data (ok + corrected): 100%
+Latency per sheet: p50 1.9 s  | p95 2.5 s
+Status (golden only): {'ok': 10, 'corrected': 1}  | not in golden (skipped): 15
+Category                      correct   total    Rate
+part_number                        10      11     91%
+component                          11      11    100%
+type                               11      11    100%
+max_temperature_c                  10      11     91%
+max_voltage.value_v                10      11     91%
+max_voltage.symbol                  9      11     82%
+max_voltage.temperature_c          10      11     91%
+max_current.value_a                 9      11     82%
+max_current.symbol                 11      11    100%
+max_current.temperature_c          11      11    100%
+TOTAL                             102     110     93%
+
+Tokens: 56447 in / 2834 out over 26 sheets (avg 2171 in / 109 out per sheet)
+Cost per sheet: $0.00039  | per 1000 sheets: $0.39
+
+Deviations:
+  BSS138_Diodes.pdf        max_voltage.symbol           expected='VDSS'  got='VDS'
+  IRF3205_Infineon.pdf     max_current.value_a          expected=110  got=100
+  IRF540N_Infineon.pdf     max_voltage.temperature_c    expected=25  got=None
+  IRLZ44N_Infineon.pdf     part_number                  expected='IRLZ44N'  got='IRF540N'
+  IRLZ44N_Infineon.pdf     max_temperature_c            expected=175  got=150
+  IRLZ44N_Infineon.pdf     max_voltage.value_v          expected=55  got=100
+  IRLZ44N_Infineon.pdf     max_voltage.symbol           expected='VDSS'  got='VDS'
+  IRLZ44N_Infineon.pdf     max_current.value_a          expected=47  got=33
+
+=== Model: minimax/minimax-m3.1-flash ===
+Settings: temperature=0  top_p=1  prompt=prompts/extract_V2.txt  PDF_READER=pymupdf  UNSTRUCTURED_STRATEGY=fast
+Pydantic validation (26 sheets): ok 77% (20)  corrected 23% (6)  failed 0% (0)  error 0% (0)
+Valid data (ok + corrected): 100%
+Latency per sheet: p50 1.5 s  | p95 4.1 s
+Status (golden only): {'ok': 10, 'corrected': 1}  | not in golden (skipped): 15
+Category                      correct   total    Rate
+part_number                        10      11     91%
+component                          11      11    100%
+type                               11      11    100%
+max_temperature_c                  11      11    100%
+max_voltage.value_v                10      11     91%
+max_voltage.symbol                 10      11     91%
+max_voltage.temperature_c          11      11    100%
+max_current.value_a                 9      11     82%
+max_current.symbol                 11      11    100%
+max_current.temperature_c          11      11    100%
+TOTAL                             105     110     95%
+
+Tokens: 73505 in / 3382 out over 26 sheets (avg 2827 in / 130 out per sheet)
+Cost per sheet: $0.00032  | per 1000 sheets: $0.32
+
+Deviations:
+  IRF3205_Infineon.pdf     max_current.value_a          expected=110  got=100
+  IRLZ44N_Infineon.pdf     part_number                  expected='IRLZ44N'  got='IRF540N'
+  IRLZ44N_Infineon.pdf     max_voltage.value_v          expected=55  got=100
+  IRLZ44N_Infineon.pdf     max_voltage.symbol           expected='VDSS'  got='VDS'
+  IRLZ44N_Infineon.pdf     max_current.value_a          expected=47  got=33

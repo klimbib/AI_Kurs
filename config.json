@@ -1,0 +1,6 @@
+{
+  "sampling": {
+    "default": {"temperature": 0, "top_p": 1},
+    "models": {}
+  }
+}

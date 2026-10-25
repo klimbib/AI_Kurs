@@ -1,0 +1,189 @@
+[
+  {
+    "file": "2N7002_Diodes.pdf",
+    "part_number": "2N7002",
+    "component": "transistor",
+    "type": "N-channel MOSFET",
+    "max_temperature_c": 150,
+    "max_voltage": {
+      "value_v": 60,
+      "symbol": "VDSS",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 0.21,
+      "symbol": "ID",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "BSS138_Diodes.pdf",
+    "part_number": "BSS138",
+    "component": "transistor",
+    "type": "N-channel MOSFET",
+    "max_temperature_c": 150,
+    "max_voltage": {
+      "value_v": 50,
+      "symbol": "VDSS",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 0.2,
+      "symbol": "ID",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "IRF3205_Infineon.pdf",
+    "part_number": "IRF3205",
+    "component": "transistor",
+    "type": "N-channel MOSFET",
+    "max_temperature_c": 175,
+    "max_voltage": {
+      "value_v": 55,
+      "symbol": "V(BR)DSS",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 110,
+      "symbol": "ID",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "IRF530_Vishay.pdf",
+    "part_number": "IRF530",
+    "component": "transistor",
+    "type": "N-channel MOSFET",
+    "max_temperature_c": 175,
+    "max_voltage": {
+      "value_v": 100,
+      "symbol": "VDS",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 14,
+      "symbol": "ID",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "IRF540N_Infineon.pdf",
+    "part_number": "IRF540N",
+    "component": "transistor",
+    "type": "N-channel MOSFET",
+    "max_temperature_c": 175,
+    "max_voltage": {
+      "value_v": 100,
+      "symbol": "V(BR)DSS",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 33,
+      "symbol": "ID",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "IRF640_Vishay.pdf",
+    "part_number": "IRF640",
+    "component": "transistor",
+    "type": "N-channel MOSFET",
+    "max_temperature_c": 150,
+    "max_voltage": {
+      "value_v": 200,
+      "symbol": "VDS",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 18,
+      "symbol": "ID",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "IRFZ44_Vishay.pdf",
+    "part_number": "IRFZ44",
+    "component": "transistor",
+    "type": "N-channel MOSFET",
+    "max_temperature_c": 175,
+    "max_voltage": {
+      "value_v": 60,
+      "symbol": "VDS",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 50,
+      "symbol": "ID",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "IRLZ44N_Infineon.pdf",
+    "part_number": "IRLZ44N",
+    "component": "transistor",
+    "type": "N-channel MOSFET",
+    "max_temperature_c": 175,
+    "max_voltage": {
+      "value_v": 55,
+      "symbol": "VDSS",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 47,
+      "symbol": "ID",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "MMBT2222A_Diodes.pdf",
+    "part_number": "MMBT2222A",
+    "component": "transistor",
+    "type": "NPN",
+    "max_temperature_c": 150,
+    "max_voltage": {
+      "value_v": 40,
+      "symbol": "VCEO",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 0.6,
+      "symbol": "IC",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "MMBT3904_Diodes.pdf",
+    "part_number": "MMBT3904",
+    "component": "transistor",
+    "type": "NPN",
+    "max_temperature_c": 150,
+    "max_voltage": {
+      "value_v": 40,
+      "symbol": "VCEO",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 0.2,
+      "symbol": "IC",
+      "temperature_c": 25
+    }
+  },
+  {
+    "file": "TIP120_Adafruit.pdf",
+    "part_number": "TIP120",
+    "component": "transistor",
+    "type": "NPN Darlington",
+    "max_temperature_c": 150,
+    "max_voltage": {
+      "value_v": 60,
+      "symbol": "VCEO",
+      "temperature_c": 25
+    },
+    "max_current": {
+      "value_a": 5,
+      "symbol": "IC",
+      "temperature_c": 25
+    }
+  }
+]

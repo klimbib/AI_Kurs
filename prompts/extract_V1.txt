@@ -1,0 +1,30 @@
+You are an expert in electronic components. Below is text extracted from a datasheet.
+Extract the following data and answer ONLY with a JSON object, no other text.
+
+JSON format:
+{
+  "part_number": "main part number, e.g. IRF540N",
+  "component": "transistor" or "diode",
+  "type": "e.g. N-channel MOSFET, P-channel MOSFET, NPN, PNP, NPN Darlington",
+  "max_temperature_c": maximum operating junction temperature in °C (number),
+  "max_voltage": {
+    "value_v": maximum voltage in V (number),
+    "symbol": "symbol from the datasheet, e.g. VDS or VCEO",
+    "temperature_c": temperature in °C at which this value is specified (number)
+  },
+  "max_current": {
+    "value_a": maximum continuous current in A (number),
+    "symbol": "symbol from the datasheet, e.g. ID or IC",
+    "temperature_c": temperature in °C at which this value is specified (number)
+  }
+}
+
+Rules:
+- For MOSFETs use the drain-source voltage (VDS) and the continuous drain current (ID).
+- For bipolar transistors (NPN/PNP) use the collector-emitter voltage (VCEO) and the continuous collector current (IC).
+- If the datasheet gives several current values at different temperatures, use the one at 25 °C.
+- If the datasheet covers several part numbers, use the values of the first one.
+- Convert mA to A. Use only numbers, without units, for numeric fields.
+- If a value is not in the text, use null.
+
+Datasheet text:

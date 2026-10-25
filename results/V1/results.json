@@ -1,0 +1,1202 @@
+{
+  "openai/gpt-4o-mini": [
+    {
+      "file": "2N7002_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2558,
+        "completion_tokens": 106
+      },
+      "latency_s": 2.64,
+      "part_number": "2N7002",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 60,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.21,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "BSS123_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2159,
+        "completion_tokens": 105
+      },
+      "latency_s": 1.97,
+      "part_number": "BSS123",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.17,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "BSS138_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2066,
+        "completion_tokens": 105
+      },
+      "latency_s": 1.88,
+      "part_number": "BSS138",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 50,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.2,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "BSS84_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2178,
+        "completion_tokens": 105
+      },
+      "latency_s": 1.99,
+      "part_number": "BSS84",
+      "component": "transistor",
+      "type": "P-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 50,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.13,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "DMG2302U_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2099,
+        "completion_tokens": 107
+      },
+      "latency_s": 2.0,
+      "part_number": "DMG2302U",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 20,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 4.2,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "DMN3404L_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1834,
+        "completion_tokens": 107
+      },
+      "latency_s": 2.48,
+      "part_number": "DMN3404L",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 30,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 5.8,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "DMP2305U_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2192,
+        "completion_tokens": 107
+      },
+      "latency_s": 2.19,
+      "part_number": "DMP2305U",
+      "component": "transistor",
+      "type": "P-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 20,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 4.2,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "DMP3099L_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2188,
+        "completion_tokens": 107
+      },
+      "latency_s": 2.0,
+      "part_number": "DMP3099L",
+      "component": "transistor",
+      "type": "P-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 30,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 3.8,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF3205_Infineon.pdf",
+      "status": "corrected",
+      "usage": {
+        "prompt_tokens": 4289,
+        "completion_tokens": 220
+      },
+      "latency_s": 4.52,
+      "part_number": "IRF3205PbF",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 55,
+        "symbol": "V(BR)DSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 100,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF510_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2217,
+        "completion_tokens": 105
+      },
+      "latency_s": 1.87,
+      "part_number": "IRF510",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 5.6,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF520_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2205,
+        "completion_tokens": 105
+      },
+      "latency_s": 1.49,
+      "part_number": "IRF520",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 9.2,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF530_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2175,
+        "completion_tokens": 103
+      },
+      "latency_s": 1.6,
+      "part_number": "IRF530",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 14,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF540N_Infineon.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 110
+      },
+      "latency_s": 2.0,
+      "part_number": "IRF540NPbF",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "V(BR)DSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 33,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF640_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2163,
+        "completion_tokens": 103
+      },
+      "latency_s": 1.65,
+      "part_number": "IRF640",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 200,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 18,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF9640_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2192,
+        "completion_tokens": 104
+      },
+      "latency_s": 1.92,
+      "part_number": "IRF9640",
+      "component": "transistor",
+      "type": "P-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 200,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 11,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRFZ34_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2108,
+        "completion_tokens": 104
+      },
+      "latency_s": 2.01,
+      "part_number": "IRFZ34",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 60,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 30,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRFZ44_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2123,
+        "completion_tokens": 104
+      },
+      "latency_s": 1.54,
+      "part_number": "IRFZ44",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 60,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 50,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRLZ44N_Infineon.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 4335,
+        "completion_tokens": 104
+      },
+      "latency_s": 2.06,
+      "part_number": "IRF540N",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 33,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "MMBT2222A_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1604,
+        "completion_tokens": 104
+      },
+      "latency_s": 1.56,
+      "part_number": "MMBT2222A",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.6,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "MMBT2907A_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1604,
+        "completion_tokens": 104
+      },
+      "latency_s": 3.05,
+      "part_number": "MMBT2222A",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.6,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "MMBT3904_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1527,
+        "completion_tokens": 103
+      },
+      "latency_s": 1.54,
+      "part_number": "MMBT3904",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.2,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "MMBT4401_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1629,
+        "completion_tokens": 103
+      },
+      "latency_s": 1.58,
+      "part_number": "MMBT4401",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.6,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "MMBT4403_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1921,
+        "completion_tokens": 103
+      },
+      "latency_s": 1.47,
+      "part_number": "MMBT4403",
+      "component": "transistor",
+      "type": "PNP",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.6,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "MMBT5401_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1585,
+        "completion_tokens": 103
+      },
+      "latency_s": 2.19,
+      "part_number": "MMBT5401",
+      "component": "transistor",
+      "type": "PNP",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 150,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.6,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "MMBT5551_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1454,
+        "completion_tokens": 103
+      },
+      "latency_s": 1.56,
+      "part_number": "MMBT5551",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 160,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.6,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "TIP120_Adafruit.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1216,
+        "completion_tokens": 101
+      },
+      "latency_s": 1.38,
+      "part_number": "TIP120",
+      "component": "transistor",
+      "type": "NPN Darlington",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 60,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 5,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    }
+  ],
+  "llama3.2:3b": [
+    {
+      "file": "2N7002_Diodes.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 5387,
+        "completion_tokens": 210
+      },
+      "latency_s": 131.23,
+      "part_number": "2N7002",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 60,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 170,
+        "symbol": "ID",
+        "temperature_c": 25
+      },
+      "validation_error": "max_current.value_a: Input should be less than or equal to 100"
+    },
+    {
+      "file": "BSS123_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2200,
+        "completion_tokens": 106
+      },
+      "latency_s": 69.88,
+      "part_number": "BSS123",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.17,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "BSS138_Diodes.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 4360,
+        "completion_tokens": 213
+      },
+      "latency_s": 93.69,
+      "part_number": "BSS138",
+      "component": "MOSFET",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 50,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 200,
+        "symbol": "IDM",
+        "temperature_c": 25
+      },
+      "validation_error": "max_current.value_a: Input should be less than or equal to 100"
+    },
+    {
+      "file": "BSS84_Diodes.pdf",
+      "status": "corrected",
+      "usage": {
+        "prompt_tokens": 4618,
+        "completion_tokens": 218
+      },
+      "latency_s": 97.74,
+      "part_number": "BSS84",
+      "component": "MOSFET",
+      "type": "P-channel Enhancement Mode MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 50,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.1,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "DMG2302U_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2157,
+        "completion_tokens": 110
+      },
+      "latency_s": 70.68,
+      "part_number": "DMG2302U",
+      "component": "MOSFET",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 20,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 4.2,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "DMN3404L_Diodes.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1874,
+        "completion_tokens": 110
+      },
+      "latency_s": 58.63,
+      "part_number": "DMN3404L",
+      "component": "MOSFET",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 30,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 5.8,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "DMP2305U_Diodes.pdf",
+      "status": "corrected",
+      "usage": {
+        "prompt_tokens": 4683,
+        "completion_tokens": 226
+      },
+      "latency_s": 100.76,
+      "part_number": "DMP2305U",
+      "component": "P-channel MOSFET",
+      "type": "P-channel Enhancement Mode MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 20,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 4.2,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "DMP3099L_Diodes.pdf",
+      "status": "corrected",
+      "usage": {
+        "prompt_tokens": 4636,
+        "completion_tokens": 224
+      },
+      "latency_s": 104.03,
+      "part_number": "DMP3099L",
+      "component": "MOSFET",
+      "type": "P-channel Enhancement Mode MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 30,
+        "symbol": "VDSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 3.8,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF3205_Infineon.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 4380,
+        "completion_tokens": 230
+      },
+      "latency_s": 96.94,
+      "part_number": "IRF3205PbF",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 55,
+        "symbol": "V(BR)DSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 110,
+        "symbol": "ID @ TC = 25°C",
+        "temperature_c": 25
+      },
+      "validation_error": "max_current.value_a: Input should be less than or equal to 100"
+    },
+    {
+      "file": "IRF510_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2258,
+        "completion_tokens": 107
+      },
+      "latency_s": 75.86,
+      "part_number": "IRF510",
+      "component": "transistor",
+      "type": "N-Channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 5.6,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF520_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2246,
+        "completion_tokens": 107
+      },
+      "latency_s": 77.45,
+      "part_number": "IRF520",
+      "component": "transistor",
+      "type": "N-Channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 9.2,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF530_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2216,
+        "completion_tokens": 105
+      },
+      "latency_s": 74.61,
+      "part_number": "IRF530",
+      "component": "transistor",
+      "type": "N-Channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 14,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF540N_Infineon.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2082,
+        "completion_tokens": 110
+      },
+      "latency_s": 70.65,
+      "part_number": "IRF540NPbF",
+      "component": "transistor",
+      "type": "NPN Darlington",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "V(BR)DSS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 33,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF640_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2204,
+        "completion_tokens": 104
+      },
+      "latency_s": 74.29,
+      "part_number": "IRF640",
+      "component": "transistor",
+      "type": "N-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 200,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 18,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRF9640_Vishay.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 4631,
+        "completion_tokens": 212
+      },
+      "latency_s": 102.11,
+      "part_number": "IRF9640",
+      "component": "transistor",
+      "type": "P-channel MOSFET",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": -200,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.01,
+        "symbol": "ID",
+        "temperature_c": 25
+      },
+      "validation_error": "max_voltage.value_v: Input should be greater than or equal to 5"
+    },
+    {
+      "file": "IRFZ34_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2148,
+        "completion_tokens": 106
+      },
+      "latency_s": 71.4,
+      "part_number": "IRFZ34",
+      "component": "transistor",
+      "type": "N-Channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 60,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 30,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRFZ44_Vishay.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 2163,
+        "completion_tokens": 106
+      },
+      "latency_s": 72.51,
+      "part_number": "IRFZ44",
+      "component": "transistor",
+      "type": "N-Channel MOSFET",
+      "max_temperature_c": 175,
+      "max_voltage": {
+        "value_v": 60,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 50,
+        "symbol": "ID",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "IRLZ44N_Infineon.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 2151,
+        "completion_tokens": 58
+      },
+      "latency_s": 73.2,
+      "max_temperature_c": 150,
+      "max_voltage": 60,
+      "max_current": 10,
+      "validation_error": "max_voltage: Input should be an object; max_current: Input should be an object"
+    },
+    {
+      "file": "MMBT2222A_Diodes.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 3403,
+        "completion_tokens": 206
+      },
+      "latency_s": 79.18,
+      "part_number": "MMBT2222A",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 600,
+        "symbol": "IC",
+        "temperature_c": 25
+      },
+      "validation_error": "max_current.value_a: Input should be less than or equal to 100"
+    },
+    {
+      "file": "MMBT2907A_Diodes.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 3403,
+        "completion_tokens": 206
+      },
+      "latency_s": 30.25,
+      "part_number": "MMBT2222A",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 600,
+        "symbol": "IC",
+        "temperature_c": 25
+      },
+      "validation_error": "max_current.value_a: Input should be less than or equal to 100"
+    },
+    {
+      "file": "MMBT3904_Diodes.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 3258,
+        "completion_tokens": 204
+      },
+      "latency_s": 63.94,
+      "part_number": "MMBT3904",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 200,
+        "symbol": "IC",
+        "temperature_c": 25
+      },
+      "validation_error": "max_current.value_a: Input should be less than or equal to 100"
+    },
+    {
+      "file": "MMBT4401_Diodes.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 3462,
+        "completion_tokens": 204
+      },
+      "latency_s": 68.82,
+      "part_number": "MMBT4401",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 600,
+        "symbol": "IC",
+        "temperature_c": 25
+      },
+      "validation_error": "max_current.value_a: Input should be less than or equal to 100"
+    },
+    {
+      "file": "MMBT4403_Diodes.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 4075,
+        "completion_tokens": 210
+      },
+      "latency_s": 89.3,
+      "part_number": "MMBT4403",
+      "component": "PNP Transistor",
+      "type": "SOT23",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 40,
+        "symbol": "VDS",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 600,
+        "symbol": "ID",
+        "temperature_c": 25
+      },
+      "validation_error": "max_current.value_a: Input should be less than or equal to 100"
+    },
+    {
+      "file": "MMBT5401_Diodes.pdf",
+      "status": "corrected",
+      "usage": {
+        "prompt_tokens": 3418,
+        "completion_tokens": 206
+      },
+      "latency_s": 69.23,
+      "part_number": "MMBT5401",
+      "component": "transistor",
+      "type": "PNP",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 150,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 0.6,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    },
+    {
+      "file": "MMBT5551_Diodes.pdf",
+      "status": "failed",
+      "usage": {
+        "prompt_tokens": 3106,
+        "completion_tokens": 204
+      },
+      "latency_s": 59.67,
+      "part_number": "MMBT5551",
+      "component": "transistor",
+      "type": "NPN",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 160,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 600,
+        "symbol": "IC",
+        "temperature_c": 25
+      },
+      "validation_error": "max_current.value_a: Input should be less than or equal to 100"
+    },
+    {
+      "file": "TIP120_Adafruit.pdf",
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1250,
+        "completion_tokens": 115
+      },
+      "latency_s": 37.55,
+      "part_number": "TIP120/TIP121/TIP122",
+      "component": "transistor",
+      "type": "NPN Epitaxial Darlington Transistor",
+      "max_temperature_c": 150,
+      "max_voltage": {
+        "value_v": 100,
+        "symbol": "VCEO",
+        "temperature_c": 25
+      },
+      "max_current": {
+        "value_a": 100,
+        "symbol": "IC",
+        "temperature_c": 25
+      }
+    }
+  ]
+}

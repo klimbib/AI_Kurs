@@ -1,0 +1,5 @@
+V1- Initversion
+V2: rules added: 
+- don't provide the values that are not exactly in text
+- use maximale value, if not avalible typical is not avalble minimum 
+

@@ -1,0 +1,79 @@
+Prompt file: prompts/extract_V1.txt
+Golden file: data/golden.json
+
+=== Model: openai/gpt-4o-mini ===
+Settings: temperature=0  top_p=1  prompt=prompts/extract_V1.txt
+Pydantic validation (26 sheets): ok 96% (25)  corrected 4% (1)  failed 0% (0)  error 0% (0)
+Valid data (ok + corrected): 100%
+Latency per sheet: p50 1.9 s  | p95 2.9 s
+Status (golden only): {'ok': 10, 'corrected': 1}  | not in golden (skipped): 15
+Category                      correct   total    Rate
+part_number                        10      11     91%
+component                          11      11    100%
+type                               11      11    100%
+max_temperature_c                  10      11     91%
+max_voltage.value_v                10      11     91%
+max_voltage.symbol                  9      11     82%
+max_voltage.temperature_c          11      11    100%
+max_current.value_a                 9      11     82%
+max_current.symbol                 11      11    100%
+max_current.temperature_c          11      11    100%
+TOTAL                             103     110     94%
+
+Tokens: 55664 in / 2835 out over 26 sheets (avg 2141 in / 109 out per sheet)
+Cost per sheet: $0.00039  | per 1000 sheets: $0.39
+
+Deviations:
+  BSS138_Diodes.pdf        max_voltage.symbol           expected='VDSS'  got='VDS'
+  IRF3205_Infineon.pdf     max_current.value_a          expected=110  got=100
+  IRLZ44N_Infineon.pdf     part_number                  expected='IRLZ44N'  got='IRF540N'
+  IRLZ44N_Infineon.pdf     max_temperature_c            expected=175  got=150
+  IRLZ44N_Infineon.pdf     max_voltage.value_v          expected=55  got=100
+  IRLZ44N_Infineon.pdf     max_voltage.symbol           expected='VDSS'  got='VDS'
+  IRLZ44N_Infineon.pdf     max_current.value_a          expected=47  got=33
+
+=== Model: llama3.2:3b ===
+Settings: temperature=0  top_p=1  prompt=prompts/extract_V1.txt
+Pydantic validation (26 sheets): ok 42% (11)  corrected 15% (4)  failed 42% (11)  error 0% (0)
+Valid data (ok + corrected): 58%
+Latency per sheet: p50 73.7 s  | p95 103.5 s
+Status (golden only): {'failed': 6, 'ok': 5}  | not in golden (skipped): 15
+Category                      correct   total    Rate
+part_number                         9      11     82%
+component                           9      11     82%
+type                                8      11     73%
+max_temperature_c                  10      11     91%
+max_voltage.value_v                 9      11     82%
+max_voltage.symbol                 10      11     91%
+max_voltage.temperature_c          10      11     91%
+max_current.value_a                 5      11     45%
+max_current.symbol                  8      11     73%
+max_current.temperature_c          10      11     91%
+TOTAL                              88     110     80%
+
+Tokens: 81769 in / 4217 out over 26 sheets (avg 3145 in / 162 out per sheet)
+Cost per sheet: $0.00000  | per 1000 sheets: $0.00
+
+Deviations:
+  2N7002_Diodes.pdf        max_current.value_a          expected=0.21  got=170
+  BSS138_Diodes.pdf        component                    expected='transistor'  got='MOSFET'
+  BSS138_Diodes.pdf        max_current.value_a          expected=0.2  got=200
+  BSS138_Diodes.pdf        max_current.symbol           expected='ID'  got='IDM'
+  IRF3205_Infineon.pdf     max_current.symbol           expected='ID'  got='ID @ TC = 25°C'
+  IRF540N_Infineon.pdf     type                         expected='N-channel MOSFET'  got='NPN Darlington'
+  IRLZ44N_Infineon.pdf     part_number                  expected='IRLZ44N'  got=None
+  IRLZ44N_Infineon.pdf     component                    expected='transistor'  got=None
+  IRLZ44N_Infineon.pdf     type                         expected='N-channel MOSFET'  got=None
+  IRLZ44N_Infineon.pdf     max_temperature_c            expected=175  got=150
+  IRLZ44N_Infineon.pdf     max_voltage.value_v          expected=55  got=None
+  IRLZ44N_Infineon.pdf     max_voltage.symbol           expected='VDSS'  got=None
+  IRLZ44N_Infineon.pdf     max_voltage.temperature_c    expected=25  got=None
+  IRLZ44N_Infineon.pdf     max_current.value_a          expected=47  got=None
+  IRLZ44N_Infineon.pdf     max_current.symbol           expected='ID'  got=None
+  IRLZ44N_Infineon.pdf     max_current.temperature_c    expected=25  got=None
+  MMBT2222A_Diodes.pdf     max_current.value_a          expected=0.6  got=600
+  MMBT3904_Diodes.pdf      max_current.value_a          expected=0.2  got=200
+  TIP120_Adafruit.pdf      part_number                  expected='TIP120'  got='TIP120/TIP121/TIP122'
+  TIP120_Adafruit.pdf      type                         expected='NPN Darlington'  got='NPN Epitaxial Darlington Transistor'
+  TIP120_Adafruit.pdf      max_voltage.value_v          expected=60  got=100
+  TIP120_Adafruit.pdf      max_current.value_a          expected=5  got=100
