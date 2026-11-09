@@ -27,8 +27,8 @@ TARGETS = [
      os.getenv("OPENROUTER_API_KEY"), "openai/gpt-4o-mini",60),
     ("OpenRouter", "https://openrouter.ai/api/v1",
      os.getenv("OPENROUTER_API_KEY"), "minimax/minimax-m3.1-flash", 60),
-   # ("Ollama", "http://localhost:11434/v1",
-   # "ollama", "llama3.2:3b",180),
+     ("Ollama", "http://localhost:11434/v1",
+     "ollama", "llama3.2:3b",180),
 ]
 
 # USD per 1M tokens (input, output); local models are free
