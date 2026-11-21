@@ -1,0 +1,54 @@
+{
+  "vector": {
+    "recall": 0.7916666666666666,
+    "mrr": 0.6666666666666666,
+    "misses": [
+      "q05",
+      "q15",
+      "q16",
+      "q19",
+      "q20"
+    ],
+    "ms": 34.883974999994884,
+    "relevant_found": 24,
+    "relevant_total": 39,
+    "chunk_recall": 0.6153846153846154
+  },
+  "bm25": {
+    "recall": 0.9166666666666666,
+    "mrr": 0.7423611111111111,
+    "misses": [
+      "q03",
+      "q19"
+    ],
+    "ms": 0.4619583333370277,
+    "relevant_found": 32,
+    "relevant_total": 39,
+    "chunk_recall": 0.8205128205128205
+  },
+  "hybrid": {
+    "recall": 0.8333333333333334,
+    "mrr": 0.7604166666666666,
+    "misses": [
+      "q15",
+      "q16",
+      "q19",
+      "q20"
+    ],
+    "ms": 34.335666666663656,
+    "relevant_found": 27,
+    "relevant_total": 39,
+    "chunk_recall": 0.6923076923076923
+  },
+  "hybrid+rerank": {
+    "recall": 0.9583333333333334,
+    "mrr": 0.8138888888888888,
+    "misses": [
+      "q19"
+    ],
+    "ms": 1867.1948083333234,
+    "relevant_found": 31,
+    "relevant_total": 39,
+    "chunk_recall": 0.7948717948717948
+  }
+}

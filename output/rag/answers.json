@@ -1,0 +1,956 @@
+{
+  "summary": {
+    "method": "hybrid+rerank",
+    "model": "openai/gpt-4o-mini",
+    "questions": 28,
+    "answered": 19,
+    "retrieval_hit": 23,
+    "llm_calls": 28,
+    "tokens_in": 32183,
+    "tokens_out": 1096,
+    "cost_usd": 0.00549,
+    "seconds": 82.0
+  },
+  "results": [
+    {
+      "question": "Find an automotive transistor with max temperature up to 175 °C",
+      "standalone": "Find an automotive transistor with max temperature up to 175 °C",
+      "found": true,
+      "answer": "The following automotive transistors have a maximum temperature of up to 175 °C:\n- IRF3205PbF: N-channel MOSFET\n- IRF510: N-channel MOSFET\n- IRF520: N-channel MOSFET\n- IRF530: N-channel MOSFET\n- IRF540NPbF: N-channel MOSFET\n- IRFZ34: N-channel MOSFET\n- IRFZ44: N-channel MOSFET",
+      "citations": [
+        "S1"
+      ],
+      "cited": [
+        "transistor_max_temperature.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "transistor_max_temperature.md#0",
+          "source": "transistor_max_temperature.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "transistor_max_temperature.md#0",
+        "IRFZ34_Vishay.pdf#3",
+        "IRF530_Vishay.pdf#3",
+        "IRF510_Vishay.pdf#3",
+        "IRFZ44_Vishay.pdf#3"
+      ],
+      "id": "q01",
+      "relevant": [
+        "transistor_max_temperature.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Which maximum current has transistor type IRF540N?",
+      "standalone": "Which maximum current has transistor type IRF540N?",
+      "found": true,
+      "answer": "33 A",
+      "citations": [
+        "S1"
+      ],
+      "cited": [
+        "transistor_max_current.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "transistor_max_current.md#0",
+          "source": "transistor_max_current.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "transistor_max_current.md#0",
+        "transistor_max_voltage.md#0",
+        "transistor_max_temperature.md#0",
+        "MMBT5401_Diodes.pdf#1",
+        "MMBT5551_Diodes.pdf#0"
+      ],
+      "id": "q02",
+      "relevant": [
+        "transistor_max_current.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "What is the maximum voltage of the TIP120?",
+      "standalone": "What is the maximum voltage of the TIP120?",
+      "found": true,
+      "answer": "60 V",
+      "citations": [
+        "S2"
+      ],
+      "cited": [
+        "transistor_max_voltage.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S2",
+          "chunk_id": "transistor_max_voltage.md#0",
+          "source": "transistor_max_voltage.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "TIP120_Adafruit.pdf#1",
+        "transistor_max_voltage.md#0",
+        "IRF3205_Infineon.pdf#1",
+        "IRF540N_Infineon.pdf#1",
+        "IRF9640_Vishay.pdf#3"
+      ],
+      "id": "q03",
+      "relevant": [
+        "transistor_max_voltage.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Find a fast switching high frequency transistor with max. current above 30 A",
+      "standalone": "Find a fast switching high frequency transistor with max. current above 30 A",
+      "found": true,
+      "answer": "The IRFZ44 is a fast switching N-channel MOSFET with a maximum current of 50 A.",
+      "citations": [
+        "S1"
+      ],
+      "cited": [
+        "transistor_max_current.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "transistor_max_current.md#0",
+          "source": "transistor_max_current.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "transistor_max_current.md#0",
+        "transistor_max_voltage.md#0",
+        "MMBT5551_Diodes.pdf#0",
+        "TIP120_Adafruit.pdf#1",
+        "IRFZ34_Vishay.pdf#3"
+      ],
+      "id": "q04",
+      "relevant": [
+        "IRF540N_Infineon.pdf#0",
+        "IRF3205_Infineon.pdf#0",
+        "IRFZ44_Vishay.pdf#1",
+        "transistor_max_current.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Find transistors with high power dissipation",
+      "standalone": "Find transistors with high power dissipation",
+      "found": true,
+      "answer": "The IRF510, IRF530, IRF9640, and IRFZ34 are third generation power MOSFETs from Vishay that are suitable for commercial-industrial applications at power dissipation levels to approximately 50 W.",
+      "citations": [
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "cited": [
+        "IRF510_Vishay.pdf#2",
+        "IRF530_Vishay.pdf#2",
+        "IRF9640_Vishay.pdf#2",
+        "IRFZ34_Vishay.pdf#2"
+      ],
+      "sources": [
+        {
+          "label": "S2",
+          "chunk_id": "IRF510_Vishay.pdf#2",
+          "source": "IRF510_Vishay.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S3",
+          "chunk_id": "IRF530_Vishay.pdf#2",
+          "source": "IRF530_Vishay.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S4",
+          "chunk_id": "IRF9640_Vishay.pdf#2",
+          "source": "IRF9640_Vishay.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S5",
+          "chunk_id": "IRFZ34_Vishay.pdf#2",
+          "source": "IRFZ34_Vishay.pdf",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "MMBT5551_Diodes.pdf#0",
+        "IRF510_Vishay.pdf#2",
+        "IRF530_Vishay.pdf#2",
+        "IRF9640_Vishay.pdf#2",
+        "IRFZ34_Vishay.pdf#2"
+      ],
+      "id": "q05",
+      "relevant": [
+        "IRF3205_Infineon.pdf#1",
+        "IRF540N_Infineon.pdf#1",
+        "IRFZ44_Vishay.pdf#2",
+        "IRF530_Vishay.pdf#2"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Which transistors have maximum operating temperature 175 °C?",
+      "standalone": "Which transistors have maximum operating temperature 175 °C?",
+      "found": true,
+      "answer": "The transistors with a maximum operating temperature of 175 °C are:\n- IRF3205PbF\n- IRF510\n- IRF520\n- IRF530\n- IRF540NPbF\n- IRFZ34\n- IRFZ44",
+      "citations": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "cited": [
+        "transistor_max_temperature.md#0",
+        "IRFZ34_Vishay.pdf#1",
+        "IRFZ44_Vishay.pdf#1",
+        "IRF510_Vishay.pdf#1",
+        "IRF530_Vishay.pdf#1"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "transistor_max_temperature.md#0",
+          "source": "transistor_max_temperature.md",
+          "section": "page 1"
+        },
+        {
+          "label": "S2",
+          "chunk_id": "IRFZ34_Vishay.pdf#1",
+          "source": "IRFZ34_Vishay.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S3",
+          "chunk_id": "IRFZ44_Vishay.pdf#1",
+          "source": "IRFZ44_Vishay.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S4",
+          "chunk_id": "IRF510_Vishay.pdf#1",
+          "source": "IRF510_Vishay.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S5",
+          "chunk_id": "IRF530_Vishay.pdf#1",
+          "source": "IRF530_Vishay.pdf",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "transistor_max_temperature.md#0",
+        "IRFZ34_Vishay.pdf#1",
+        "IRFZ44_Vishay.pdf#1",
+        "IRF510_Vishay.pdf#1",
+        "IRF530_Vishay.pdf#1"
+      ],
+      "id": "q06",
+      "relevant": [
+        "transistor_max_temperature.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "AEC-Q101",
+      "standalone": "AEC-Q101",
+      "found": true,
+      "answer": "AEC-Q101 is a qualification standard for automotive components that ensures high reliability. It is mentioned in the context of the BSS123Q and DMN3404L devices, which are both AEC-Q101 qualified and suitable for automotive applications requiring specific change control (S2, S3).",
+      "citations": [
+        "S2",
+        "S3"
+      ],
+      "cited": [
+        "BSS123Q.pdf#2",
+        "DMN3404L_Diodes copy.pdf#2"
+      ],
+      "sources": [
+        {
+          "label": "S2",
+          "chunk_id": "BSS123Q.pdf#2",
+          "source": "BSS123Q.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S3",
+          "chunk_id": "DMN3404L_Diodes copy.pdf#2",
+          "source": "DMN3404L_Diodes copy.pdf",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "2N7002_Diodes.pdf#2",
+        "BSS123Q.pdf#2",
+        "DMN3404L_Diodes copy.pdf#2",
+        "BSS123Q.pdf#0",
+        "MMBT4403_Diodes.pdf#1"
+      ],
+      "id": "q07",
+      "relevant": [
+        "2N7002_Diodes.pdf#2",
+        "BSS123Q.pdf#0",
+        "BSS123Q.pdf#2",
+        "DMN3404L_Diodes copy.pdf#2"
+      ],
+      "hit": true
+    },
+    {
+      "question": "NPN Darlington transistor TIP120",
+      "standalone": "NPN Darlington transistor TIP120",
+      "found": true,
+      "answer": "The TIP120 is an NPN Darlington transistor with a maximum current of 5 A and a maximum voltage of 60 V.",
+      "citations": [
+        "S3",
+        "S4"
+      ],
+      "cited": [
+        "transistor_max_current.md#0",
+        "transistor_max_voltage.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S3",
+          "chunk_id": "transistor_max_current.md#0",
+          "source": "transistor_max_current.md",
+          "section": "page 1"
+        },
+        {
+          "label": "S4",
+          "chunk_id": "transistor_max_voltage.md#0",
+          "source": "transistor_max_voltage.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "TIP120_Adafruit.pdf#1",
+        "TIP120_Adafruit.pdf#0",
+        "transistor_max_current.md#0",
+        "transistor_max_voltage.md#0",
+        "transistor_max_temperature.md#0"
+      ],
+      "id": "q08",
+      "relevant": [
+        "TIP120_Adafruit.pdf#0",
+        "TIP120_Adafruit.pdf#1"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Find a P-channel MOSFET with max current above 10 A",
+      "standalone": "Find a P-channel MOSFET with max current above 10 A",
+      "found": false,
+      "answer": "I could not find this in the documents available to you.",
+      "citations": [],
+      "cited": [],
+      "sources": [],
+      "dropped": [],
+      "retrieved": [
+        "transistor_max_current.md#0",
+        "IRFZ44_Vishay.pdf#4",
+        "transistor_max_voltage.md#0",
+        "IRF9640_Vishay.pdf#4",
+        "transistor_max_temperature.md#0"
+      ],
+      "id": "q09",
+      "relevant": [
+        "transistor_max_current.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "40V NPN small-signal transistor in SOT23",
+      "standalone": "40V NPN small-signal transistor in SOT23",
+      "found": true,
+      "answer": "The 40V NPN small-signal transistors in SOT23 are MMBT2222A, MMBT3904, and MMBT4401. \n- MMBT2222A: Low Saturation Voltage VCE(sat) < 300mV @ 150mA (S1).\n- MMBT3904: Ideal for Medium-Power Amplification and Switching (S2).\n- MMBT4401: Ideal for Medium Power Amplification and Switching (S3).",
+      "citations": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "cited": [
+        "MMBT2222A_Diodes.pdf#1",
+        "MMBT3904_Diodes.pdf#0",
+        "MMBT4401_Diodes.pdf#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "MMBT2222A_Diodes.pdf#1",
+          "source": "MMBT2222A_Diodes.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S2",
+          "chunk_id": "MMBT3904_Diodes.pdf#0",
+          "source": "MMBT3904_Diodes.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S3",
+          "chunk_id": "MMBT4401_Diodes.pdf#0",
+          "source": "MMBT4401_Diodes.pdf",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "MMBT2222A_Diodes.pdf#1",
+        "MMBT3904_Diodes.pdf#0",
+        "MMBT4401_Diodes.pdf#0",
+        "MMBT5401_Diodes.pdf#1",
+        "MMBT5551_Diodes.pdf#0"
+      ],
+      "id": "q10",
+      "relevant": [
+        "MMBT2222A_Diodes.pdf#1",
+        "MMBT3904_Diodes.pdf#0",
+        "transistor_max_voltage.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Which transistors can handle more than 100 V?",
+      "standalone": "Which transistors can handle more than 100 V?",
+      "found": false,
+      "answer": "I could not find this in the documents available to you.",
+      "citations": [],
+      "cited": [],
+      "sources": [],
+      "dropped": [],
+      "retrieved": [
+        "transistor_max_voltage.md#0",
+        "MMBT2222A_Diodes.pdf#1",
+        "TIP120_Adafruit.pdf#1",
+        "transistor_max_current.md#0",
+        "transistor_max_temperature.md#0"
+      ],
+      "id": "q11",
+      "relevant": [
+        "transistor_max_voltage.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Which MOSFET is fully avalanche rated?",
+      "standalone": "Which MOSFET is fully avalanche rated?",
+      "found": true,
+      "answer": "The IRF3205PbF and IRF540NPbF MOSFETs are fully avalanche rated.",
+      "citations": [
+        "S1",
+        "S2"
+      ],
+      "cited": [
+        "IRF3205_Infineon.pdf#0",
+        "IRF540N_Infineon.pdf#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "IRF3205_Infineon.pdf#0",
+          "source": "IRF3205_Infineon.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S2",
+          "chunk_id": "IRF540N_Infineon.pdf#0",
+          "source": "IRF540N_Infineon.pdf",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "IRF3205_Infineon.pdf#0",
+        "IRF540N_Infineon.pdf#0",
+        "IRF510_Vishay.pdf#1",
+        "IRF530_Vishay.pdf#1",
+        "IRF9640_Vishay.pdf#1"
+      ],
+      "id": "q12",
+      "relevant": [
+        "IRF3205_Infineon.pdf#0",
+        "IRF540N_Infineon.pdf#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Which PNP transistor is complementary to the MMBT2222A?",
+      "standalone": "Which PNP transistor is complementary to the MMBT2222A?",
+      "found": true,
+      "answer": "MMBT2907A",
+      "citations": [
+        "S2"
+      ],
+      "cited": [
+        "MMBT2222A_Diodes.pdf#1"
+      ],
+      "sources": [
+        {
+          "label": "S2",
+          "chunk_id": "MMBT2222A_Diodes.pdf#1",
+          "source": "MMBT2222A_Diodes.pdf",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "MMBT5401_Diodes.pdf#1",
+        "MMBT2222A_Diodes.pdf#1",
+        "MMBT3904_Diodes.pdf#0",
+        "MMBT4401_Diodes.pdf#0",
+        "MMBT5551_Diodes.pdf#0"
+      ],
+      "id": "q13",
+      "relevant": [
+        "MMBT2222A_Diodes.pdf#1"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Welche Transistoren haben eine maximale Temperatur von 175 °C?",
+      "standalone": "Welche Transistoren haben eine maximale Temperatur von 175 °C?",
+      "found": true,
+      "answer": "Die folgenden Transistoren haben eine maximale Temperatur von 175 °C:\n- IRF3205PbF\n- IRF510\n- IRF520\n- IRF530\n- IRF540NPbF\n- IRFZ34\n- IRFZ44",
+      "citations": [
+        "S5"
+      ],
+      "cited": [
+        "transistor_max_temperature.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S5",
+          "chunk_id": "transistor_max_temperature.md#0",
+          "source": "transistor_max_temperature.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "IRFZ34_Vishay.pdf#3",
+        "IRF530_Vishay.pdf#3",
+        "IRFZ44_Vishay.pdf#3",
+        "IRF510_Vishay.pdf#3",
+        "transistor_max_temperature.md#0"
+      ],
+      "id": "q14",
+      "relevant": [
+        "transistor_max_temperature.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Finde einen Leistungs-MOSFET für hohe Ströme über 30 A",
+      "standalone": "Finde einen Leistungs-MOSFET für hohe Ströme über 30 A",
+      "found": true,
+      "answer": "Der IRF3205PbF ist ein N-Kanal MOSFET mit einem maximalen Strom von 100 A.",
+      "citations": [
+        "S2",
+        "S3"
+      ],
+      "cited": [
+        "transistor_max_current.md#0",
+        "IRFZ44_Vishay.pdf#4"
+      ],
+      "sources": [
+        {
+          "label": "S2",
+          "chunk_id": "transistor_max_current.md#0",
+          "source": "transistor_max_current.md",
+          "section": "page 1"
+        },
+        {
+          "label": "S3",
+          "chunk_id": "IRFZ44_Vishay.pdf#4",
+          "source": "IRFZ44_Vishay.pdf",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "2N7002_Diodes.pdf#0",
+        "transistor_max_current.md#0",
+        "IRFZ44_Vishay.pdf#4",
+        "transistor_max_voltage.md#0",
+        "DMN3404L_Diodes copy.pdf#0"
+      ],
+      "id": "q15",
+      "relevant": [
+        "transistor_max_current.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Wie viel Strom verträgt der IRFZ44 maximal?",
+      "standalone": "Wie viel Strom verträgt der IRFZ44 maximal?",
+      "found": true,
+      "answer": "Der IRFZ44 verträgt maximal 50 A.",
+      "citations": [
+        "S2"
+      ],
+      "cited": [
+        "transistor_max_current.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S2",
+          "chunk_id": "transistor_max_current.md#0",
+          "source": "transistor_max_current.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "IRFZ44_Vishay.pdf#0",
+        "transistor_max_current.md#0",
+        "transistor_max_voltage.md#0",
+        "transistor_max_temperature.md#0",
+        "IRF540N_Infineon.pdf#1"
+      ],
+      "id": "q16",
+      "relevant": [
+        "transistor_max_current.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Welcher Transistor ist ein NPN-Darlington-Transistor?",
+      "standalone": "Welcher Transistor ist ein NPN-Darlington-Transistor?",
+      "found": true,
+      "answer": "Der TIP120 ist ein NPN-Darlington-Transistor.",
+      "citations": [
+        "S1",
+        "S3"
+      ],
+      "cited": [
+        "TIP120_Adafruit.pdf#0",
+        "transistor_max_current.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "TIP120_Adafruit.pdf#0",
+          "source": "TIP120_Adafruit.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S3",
+          "chunk_id": "transistor_max_current.md#0",
+          "source": "transistor_max_current.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "TIP120_Adafruit.pdf#0",
+        "TIP120_Adafruit.pdf#1",
+        "transistor_max_current.md#0",
+        "transistor_max_voltage.md#0",
+        "transistor_max_temperature.md#0"
+      ],
+      "id": "q17",
+      "relevant": [
+        "TIP120_Adafruit.pdf#0",
+        "transistor_max_current.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is the TIP120 a Darlington transistor?",
+      "standalone": "Is the TIP120 a Darlington transistor?",
+      "found": true,
+      "answer": "Yes, the TIP120 is an NPN Darlington transistor.",
+      "citations": [
+        "S1",
+        "S3"
+      ],
+      "cited": [
+        "TIP120_Adafruit.pdf#0",
+        "transistor_max_current.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "TIP120_Adafruit.pdf#0",
+          "source": "TIP120_Adafruit.pdf",
+          "section": "page 1"
+        },
+        {
+          "label": "S3",
+          "chunk_id": "transistor_max_current.md#0",
+          "source": "transistor_max_current.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "TIP120_Adafruit.pdf#0",
+        "TIP120_Adafruit.pdf#1",
+        "transistor_max_current.md#0",
+        "transistor_max_voltage.md#0",
+        "transistor_max_temperature.md#0"
+      ],
+      "id": "q18",
+      "relevant": [
+        "TIP120_Adafruit.pdf#0",
+        "TIP120_Adafruit.pdf#1"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is the IRF3205 rated for an maximum operating temperature up to 175 °C?",
+      "standalone": "Is the IRF3205 rated for an maximum operating temperature up to 175 °C?",
+      "found": false,
+      "answer": "I could not find this in the documents available to you.",
+      "citations": [],
+      "cited": [],
+      "sources": [],
+      "dropped": [],
+      "retrieved": [
+        "IRF510_Vishay.pdf#1",
+        "IRF530_Vishay.pdf#1",
+        "IRFZ34_Vishay.pdf#1",
+        "IRFZ44_Vishay.pdf#1",
+        "IRF3205_Infineon.pdf#1"
+      ],
+      "id": "q19",
+      "relevant": [
+        "transistor_max_temperature.md#0"
+      ],
+      "hit": false
+    },
+    {
+      "question": "Can the BSS84 handle more than 100 V?",
+      "standalone": "Can the BSS84 handle more than 100 V?",
+      "found": false,
+      "answer": "I could not find this in the documents available to you.",
+      "citations": [],
+      "cited": [],
+      "sources": [],
+      "dropped": [],
+      "retrieved": [
+        "transistor_max_voltage.md#0",
+        "BSS84_Diodes.pdf#0",
+        "BSS123Q.pdf#2",
+        "BSS138_Diodes.pdf#0",
+        "transistor_max_current.md#0"
+      ],
+      "id": "q20",
+      "relevant": [
+        "transistor_max_voltage.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is the MMBT3904 a PNP transistor?",
+      "standalone": "Is the MMBT3904 a PNP transistor?",
+      "found": false,
+      "answer": "I could not find this in the documents available to you.",
+      "citations": [],
+      "cited": [],
+      "sources": [],
+      "dropped": [],
+      "retrieved": [
+        "MMBT3904_Diodes.pdf#0",
+        "MMBT5401_Diodes.pdf#1",
+        "MMBT4401_Diodes.pdf#0",
+        "MMBT2222A_Diodes.pdf#1",
+        "MMBT5551_Diodes.pdf#0"
+      ],
+      "id": "q21",
+      "relevant": [
+        "MMBT3904_Diodes.pdf#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "What is the price per 1000 pieces of the IRF540N?",
+      "standalone": "What is the price per 1000 pieces of the IRF540N?",
+      "found": true,
+      "answer": "520.00 EUR",
+      "citations": [
+        "S1"
+      ],
+      "cited": [
+        "purchasing/transistor_prices.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "purchasing/transistor_prices.md#0",
+          "source": "purchasing/transistor_prices.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "purchasing/transistor_prices.md#0"
+      ],
+      "id": "q22",
+      "relevant": [
+        "purchasing/transistor_prices.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Which transistors cost less than 50 EUR per 1000 pieces?",
+      "standalone": "Which transistors cost less than 50 EUR per 1000 pieces?",
+      "found": true,
+      "answer": "The following transistors cost less than 50 EUR per 1000 pieces:\n- 2N7002: 45.00 EUR\n- MMBT3904: 28.00 EUR\n- MMBT2222A: 30.00 EUR",
+      "citations": [
+        "S1"
+      ],
+      "cited": [
+        "purchasing/transistor_prices.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "purchasing/transistor_prices.md#0",
+          "source": "purchasing/transistor_prices.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "purchasing/transistor_prices.md#0"
+      ],
+      "id": "q23",
+      "relevant": [
+        "purchasing/transistor_prices.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Welcher P-Kanal-MOSFET ist beim Einkauf am günstigsten?",
+      "standalone": "Welcher P-Kanal-MOSFET ist beim Einkauf am günstigsten?",
+      "found": true,
+      "answer": "Der günstigste P-Kanal-MOSFET ist der MMBT2907A mit einem Preis von 32,00 EUR pro 1000 Stück.",
+      "citations": [
+        "S1"
+      ],
+      "cited": [
+        "purchasing/transistor_prices.md#0"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "purchasing/transistor_prices.md#0",
+          "source": "purchasing/transistor_prices.md",
+          "section": "page 1"
+        }
+      ],
+      "dropped": [],
+      "retrieved": [
+        "purchasing/transistor_prices.md#0"
+      ],
+      "id": "q24",
+      "relevant": [
+        "purchasing/transistor_prices.md#0"
+      ],
+      "hit": true
+    },
+    {
+      "question": "What is the price per 1000 pieces of the IRF540N?",
+      "standalone": "What is the price per 1000 pieces of the IRF540N?",
+      "found": false,
+      "answer": "I could not find this in the documents available to you.",
+      "citations": [],
+      "cited": [],
+      "sources": [],
+      "dropped": [],
+      "retrieved": [
+        "IRF540N_Infineon.pdf#1",
+        "IRF3205_Infineon.pdf#1",
+        "MMBT4403_Diodes.pdf#1",
+        "DMP2305U_Diodes.pdf#3",
+        "BSS123_Diodes.pdf#3"
+      ],
+      "id": "q25",
+      "relevant": [],
+      "hit": false
+    },
+    {
+      "question": "Which transistors cost less than 50 EUR per 1000 pieces?",
+      "standalone": "Which transistors cost less than 50 EUR per 1000 pieces?",
+      "found": false,
+      "answer": "I could not find this in the documents available to you.",
+      "citations": [],
+      "cited": [],
+      "sources": [],
+      "dropped": [],
+      "retrieved": [
+        "transistor_max_voltage.md#0",
+        "MMBT2222A_Diodes.pdf#1",
+        "TIP120_Adafruit.pdf#1",
+        "transistor_max_current.md#0",
+        "transistor_max_temperature.md#0"
+      ],
+      "id": "q26",
+      "relevant": [],
+      "hit": false
+    },
+    {
+      "question": "What is the maximum collector current of the BC547?",
+      "standalone": "What is the maximum collector current of the BC547?",
+      "found": false,
+      "answer": "I could not find this in the documents available to you.",
+      "citations": [],
+      "cited": [],
+      "sources": [],
+      "dropped": [],
+      "retrieved": [
+        "transistor_max_current.md#0",
+        "TIP120_Adafruit.pdf#2",
+        "IRF540N_Infineon.pdf#1",
+        "IRFZ44_Vishay.pdf#4",
+        "TIP120_Adafruit.pdf#1"
+      ],
+      "id": "q27",
+      "relevant": [],
+      "hit": false
+    },
+    {
+      "question": "Which GaN transistor has the lowest on-resistance?",
+      "standalone": "Which GaN transistor has the lowest on-resistance?",
+      "found": false,
+      "answer": "I could not find this in the documents available to you.",
+      "citations": [],
+      "cited": [],
+      "sources": [],
+      "dropped": [],
+      "retrieved": [
+        "IRF3205_Infineon.pdf#0",
+        "DMP2305U_Diodes.pdf#1",
+        "IRF540N_Infineon.pdf#0",
+        "BSS138_Diodes.pdf#1",
+        "IRFZ44_Vishay.pdf#2"
+      ],
+      "id": "q28",
+      "relevant": [],
+      "hit": false
+    }
+  ]
+}
