@@ -8,7 +8,7 @@ on:
   pull_request:
     paths:
       - "prompts/**"
-      - "eval/testset.json"
+      - "evals/testset.json"
       - "rag.py"
       - "search.py"
       - "ingest.py"
@@ -34,4 +34,4 @@ jobs:
         if: always()
         with:
           name: eval-results
-          path: eval/evals.json
+          path: evals/evals.json
