@@ -1,0 +1,246 @@
+[
+ {
+  "id": "a01",
+  "case": "q01",
+  "answer": "The following automotive transistors have a maximum temperature of up to 175 °C:\n- IRF3205PbF: N-channel MOSFET\n- IRF510: N-channel MOSFET\n- IRF520: N-channel MOSFET\n- IRF530: N-channel MOSFET\n- IRF540NPbF: N-channel MOSFET\n- IRFZ34: N-channel MOSFET\n- IRFZ44: N-channel MOSFET",
+  "found": true,
+  "cited": [
+   "transistor_max_temperature.md#0"
+  ],
+  "correct": true,
+  "grounded": false,
+  "note": "right list of 175 °C types, but 'automotive' is not in the cited source",
+  "seen_in": [
+   1
+  ]
+ },
+ {
+  "id": "a02",
+  "case": "q01",
+  "answer": "The following automotive transistors have a maximum temperature of up to 175 °C:\n- IRF3205PbF: N-channel MOSFET, Max Temperature: 175 °C\n- IRF510: N-channel MOSFET, Max Temperature: 175 °C\n- IRF520: N-channel MOSFET, Max Temperature: 175 °C\n- IRF530: N-channel MOSFET, Max Temperature: 175 °C\n- IRF540NPbF: N-channel MOSFET, Max Temperature: 175 °C\n- IRFZ34: N-channel MOSFET, Max Temperature: 175 °C\n- IRFZ44: N-channel MOSFET, Max Temperature: 175 °C",
+  "found": true,
+  "cited": [
+   "transistor_max_temperature.md#0"
+  ],
+  "correct": true,
+  "grounded": false,
+  "note": "right list of 175 °C types, but 'automotive' is not in the cited source",
+  "seen_in": [
+   2
+  ]
+ },
+ {
+  "id": "a03",
+  "case": "q01",
+  "answer": "The following automotive transistors have a maximum temperature of up to 175 °C:\n- IRF3205PbF (N-channel MOSFET)\n- IRF510 (N-channel MOSFET)\n- IRF520 (N-channel MOSFET)\n- IRF530 (N-channel MOSFET)\n- IRF540NPbF (N-channel MOSFET)\n- IRFZ34 (N-channel MOSFET)\n- IRFZ44 (N-channel MOSFET)",
+  "found": true,
+  "cited": [
+   "transistor_max_temperature.md#0",
+   "IRFZ34_Vishay.pdf#3",
+   "IRF530_Vishay.pdf#3",
+   "IRF510_Vishay.pdf#3",
+   "IRFZ44_Vishay.pdf#3"
+  ],
+  "correct": true,
+  "grounded": false,
+  "note": "right list of 175 °C types, but 'automotive' is not in the cited source",
+  "seen_in": [
+   3
+  ]
+ },
+ {
+  "id": "a04",
+  "case": "q02",
+  "answer": "33 A",
+  "found": true,
+  "cited": [
+   "transistor_max_current.md#0"
+  ],
+  "correct": true,
+  "grounded": true,
+  "note": "right and supported by the cited source",
+  "seen_in": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "a05",
+  "case": "q03",
+  "answer": "60 V",
+  "found": true,
+  "cited": [
+   "transistor_max_voltage.md#0"
+  ],
+  "correct": true,
+  "grounded": true,
+  "note": "right and supported by the cited source",
+  "seen_in": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "a06",
+  "case": "q04",
+  "answer": "The IRFZ44 is a fast switching N-channel MOSFET with a maximum current of 50 A.",
+  "found": true,
+  "cited": [
+   "transistor_max_current.md#0"
+  ],
+  "correct": true,
+  "grounded": false,
+  "note": "right (IRFZ44, 50 A), but 'fast switching' is not in the cited chunk; the IRF3205 (100 A) is not mentioned",
+  "seen_in": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "a07",
+  "case": "q05",
+  "answer": "The IRF510, IRF530, IRF9640, and IRFZ34 are third generation power MOSFETs from Vishay that are suitable for commercial-industrial applications at power dissipation levels to approximately 50 W.",
+  "found": true,
+  "cited": [
+   "IRF510_Vishay.pdf#2",
+   "IRF530_Vishay.pdf#2",
+   "IRF9640_Vishay.pdf#2",
+   "IRFZ34_Vishay.pdf#2"
+  ],
+  "correct": true,
+  "grounded": true,
+  "note": "valid but incomplete: the IRF3205 and IRF540N are not mentioned",
+  "seen_in": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "a08",
+  "case": "q06",
+  "answer": "The following transistors have a 175 °C operating temperature:\n- IRFZ34 (S1)\n- IRFZ44 (S2)\n- IRF510 (S3)\n- IRF530 (S4)\n- IRF540NPbF (S5)",
+  "found": true,
+  "cited": [
+   "IRFZ34_Vishay.pdf#1",
+   "IRFZ44_Vishay.pdf#1",
+   "IRF510_Vishay.pdf#1",
+   "IRF530_Vishay.pdf#1",
+   "IRF540N_Infineon.pdf#0"
+  ],
+  "correct": false,
+  "grounded": true,
+  "note": "incomplete: IRF3205 and IRF520 are missing; source labels (S1..S5) are left in the text",
+  "seen_in": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "a09",
+  "case": "q07",
+  "answer": "AEC-Q101 is a qualification standard for automotive components that ensures high reliability. It is referenced in the context of several devices, including the 2N7002, BSS123Q, and DMN3404L, indicating that these components meet the stringent requirements for automotive applications.",
+  "found": true,
+  "cited": [
+   "2N7002_Diodes.pdf#2",
+   "BSS123Q.pdf#2",
+   "DMN3404L_Diodes copy.pdf#2",
+   "BSS123Q.pdf#0"
+  ],
+  "correct": true,
+  "grounded": true,
+  "note": "right and supported by the cited source",
+  "seen_in": [
+   1
+  ]
+ },
+ {
+  "id": "a10",
+  "case": "q07",
+  "answer": "AEC-Q101 is a qualification standard for automotive components that ensures high reliability. It is mentioned in the context of the BSS123Q and DMN3404L MOSFETs, which are both qualified to AEC-Q101 standards for automotive applications (S2, S3).",
+  "found": true,
+  "cited": [
+   "BSS123Q.pdf#2",
+   "DMN3404L_Diodes copy.pdf#2"
+  ],
+  "correct": true,
+  "grounded": true,
+  "note": "right, but source labels (S2, S3) are left in the text",
+  "seen_in": [
+   2
+  ]
+ },
+ {
+  "id": "a11",
+  "case": "q07",
+  "answer": "AEC-Q101 is a qualification standard for automotive components that ensures high reliability. It is referenced in the context of several devices, including the 2N7002, BSS123Q, and DMN3404L, indicating that these components meet the stringent requirements for automotive applications.",
+  "found": true,
+  "cited": [
+   "2N7002_Diodes.pdf#2",
+   "BSS123Q.pdf#2",
+   "DMN3404L_Diodes copy.pdf#2"
+  ],
+  "correct": true,
+  "grounded": true,
+  "note": "right and supported by the cited source",
+  "seen_in": [
+   3
+  ]
+ },
+ {
+  "id": "a12",
+  "case": "q08",
+  "answer": "The TIP120 is an NPN Darlington transistor with a maximum current of 5 A and a maximum voltage of 60 V.",
+  "found": true,
+  "cited": [
+   "transistor_max_current.md#0",
+   "transistor_max_voltage.md#0"
+  ],
+  "correct": true,
+  "grounded": true,
+  "note": "right and supported by the cited source",
+  "seen_in": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "a13",
+  "case": "q09",
+  "answer": "I could not find this in the documents available to you.",
+  "found": false,
+  "cited": [],
+  "correct": false,
+  "grounded": null,
+  "note": "not found, but the IRF9640 (P-channel, 11 A) is in transistor_max_current.md#0",
+  "seen_in": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "a14",
+  "case": "q10",
+  "answer": "The 40V NPN small-signal transistors in SOT23 are MMBT2222A, MMBT3904, and MMBT4401. They are suitable for low to medium power amplification and switching applications.",
+  "found": true,
+  "cited": [
+   "MMBT2222A_Diodes.pdf#1",
+   "MMBT3904_Diodes.pdf#0",
+   "MMBT4401_Diodes.pdf#0"
+  ],
+  "correct": true,
+  "grounded": true,
+  "note": "right and supported by the cited source",
+  "seen_in": [
+   1,
+   2,
+   3
+  ]
+ }
+]

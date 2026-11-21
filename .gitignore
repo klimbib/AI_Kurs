@@ -2,3 +2,8 @@
 .venv/
 .vscode/
 __pycache__/
+.models/
+output/
+*.pyc
+.pytest_cache/
+.DS_Store

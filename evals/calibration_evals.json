@@ -1,0 +1,352 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "prompts": "judge-v2",
+  "deterministic": {
+    "agreement": 0.9285714285714286,
+    "false_pass": 0.0,
+    "false_fail": 0.07142857142857142,
+    "disagreements": [
+      "a12"
+    ]
+  },
+  "judge": {
+    "agreement": 0.8571428571428571,
+    "false_pass": 0.0,
+    "false_fail": 0.14285714285714285,
+    "disagreements": [
+      "a07",
+      "a10"
+    ]
+  },
+  "grounded": {
+    "agreement": 0.3076923076923077,
+    "false_pass": 0.3076923076923077,
+    "false_fail": 0.38461538461538464,
+    "disagreements": [
+      "a01",
+      "a02",
+      "a03",
+      "a06",
+      "a07",
+      "a09",
+      "a11",
+      "a12",
+      "a14"
+    ]
+  },
+  "items": [
+    {
+      "id": "a01",
+      "case": "q01",
+      "answer": "The following automotive transistors have a maximum temperature of up to 175 °C:\n- IRF3205PbF: N-channel MOSFET\n- IRF510: N-channel MOSFET\n- IRF520: N-channel MOSFET\n- IRF530: N-channel MOSFET\n- IRF540NPbF: N-channel MOSFET\n- IRFZ34: N-channel MOSFET\n- IRFZ44: N-channel MOSFET",
+      "found": true,
+      "cited": [
+        "transistor_max_temperature.md#0"
+      ],
+      "correct": true,
+      "grounded": false,
+      "note": "right list of 175 °C types, but 'automotive' is not in the cited source",
+      "seen_in": [
+        1
+      ],
+      "judge_reason": "The answer lists the same transistors as the reference, with the addition of 'PbF' and 'N-channel MOSFET' designations, which do not change the core information. The maximum temperature of 175 °C is correctly stated for all listed transistors. Therefore, it is consistent with the reference answer.",
+      "judge_ok": true,
+      "grounded_model": true,
+      "unsupported": []
+    },
+    {
+      "id": "a02",
+      "case": "q01",
+      "answer": "The following automotive transistors have a maximum temperature of up to 175 °C:\n- IRF3205PbF: N-channel MOSFET, Max Temperature: 175 °C\n- IRF510: N-channel MOSFET, Max Temperature: 175 °C\n- IRF520: N-channel MOSFET, Max Temperature: 175 °C\n- IRF530: N-channel MOSFET, Max Temperature: 175 °C\n- IRF540NPbF: N-channel MOSFET, Max Temperature: 175 °C\n- IRFZ34: N-channel MOSFET, Max Temperature: 175 °C\n- IRFZ44: N-channel MOSFET, Max Temperature: 175 °C",
+      "found": true,
+      "cited": [
+        "transistor_max_temperature.md#0"
+      ],
+      "correct": true,
+      "grounded": false,
+      "note": "right list of 175 °C types, but 'automotive' is not in the cited source",
+      "seen_in": [
+        2
+      ],
+      "judge_reason": "The answer includes additional details such as 'PbF' and 'NPbF' in the part numbers, which do not contradict the reference but provide extra harmless detail. All listed transistors match the reference in terms of maximum temperature and part numbers, thus the answer is correct.",
+      "judge_ok": true,
+      "grounded_model": true,
+      "unsupported": []
+    },
+    {
+      "id": "a03",
+      "case": "q01",
+      "answer": "The following automotive transistors have a maximum temperature of up to 175 °C:\n- IRF3205PbF (N-channel MOSFET)\n- IRF510 (N-channel MOSFET)\n- IRF520 (N-channel MOSFET)\n- IRF530 (N-channel MOSFET)\n- IRF540NPbF (N-channel MOSFET)\n- IRFZ34 (N-channel MOSFET)\n- IRFZ44 (N-channel MOSFET)",
+      "found": true,
+      "cited": [
+        "transistor_max_temperature.md#0",
+        "IRFZ34_Vishay.pdf#3",
+        "IRF530_Vishay.pdf#3",
+        "IRF510_Vishay.pdf#3",
+        "IRFZ44_Vishay.pdf#3"
+      ],
+      "correct": true,
+      "grounded": false,
+      "note": "right list of 175 °C types, but 'automotive' is not in the cited source",
+      "seen_in": [
+        3
+      ],
+      "judge_reason": "The answer includes the same part numbers as the reference and specifies that some of them are N-channel MOSFETs, which is additional harmless detail. The inclusion of 'PbF' in IRF3205PbF and IRF540NPbF does not change the fact that these parts meet the criteria stated in the reference. Therefore, the answer is correct.",
+      "judge_ok": true,
+      "grounded_model": true,
+      "unsupported": []
+    },
+    {
+      "id": "a04",
+      "case": "q02",
+      "answer": "33 A",
+      "found": true,
+      "cited": [
+        "transistor_max_current.md#0"
+      ],
+      "correct": true,
+      "grounded": true,
+      "note": "right and supported by the cited source",
+      "seen_in": [
+        1,
+        2,
+        3
+      ],
+      "judge_reason": "The answer states the same maximum current value of 33 A as the reference answer without any discrepancies.",
+      "judge_ok": true,
+      "grounded_model": true,
+      "unsupported": []
+    },
+    {
+      "id": "a05",
+      "case": "q03",
+      "answer": "60 V",
+      "found": true,
+      "cited": [
+        "transistor_max_voltage.md#0"
+      ],
+      "correct": true,
+      "grounded": true,
+      "note": "right and supported by the cited source",
+      "seen_in": [
+        1,
+        2,
+        3
+      ],
+      "judge_reason": "The answer states the same maximum voltage value as the reference answer, which is 60 V.",
+      "judge_ok": true,
+      "grounded_model": true,
+      "unsupported": []
+    },
+    {
+      "id": "a06",
+      "case": "q04",
+      "answer": "The IRFZ44 is a fast switching N-channel MOSFET with a maximum current of 50 A.",
+      "found": true,
+      "cited": [
+        "transistor_max_current.md#0"
+      ],
+      "correct": true,
+      "grounded": false,
+      "note": "right (IRFZ44, 50 A), but 'fast switching' is not in the cited chunk; the IRF3205 (100 A) is not mentioned",
+      "seen_in": [
+        1,
+        2,
+        3
+      ],
+      "judge_reason": "The answer correctly identifies the IRFZ44 as a fast switching transistor with a maximum current of 50 A, which matches the reference. However, it does not mention the other two transistors (IRF3205 and IRF540N) listed in the reference answer, but this does not affect the correctness of the information provided about the IRFZ44. Therefore, it is still considered correct as it states accurate facts about the IRFZ44.",
+      "judge_ok": true,
+      "grounded_model": true,
+      "unsupported": []
+    },
+    {
+      "id": "a07",
+      "case": "q05",
+      "answer": "The IRF510, IRF530, IRF9640, and IRFZ34 are third generation power MOSFETs from Vishay that are suitable for commercial-industrial applications at power dissipation levels to approximately 50 W.",
+      "found": true,
+      "cited": [
+        "IRF510_Vishay.pdf#2",
+        "IRF530_Vishay.pdf#2",
+        "IRF9640_Vishay.pdf#2",
+        "IRFZ34_Vishay.pdf#2"
+      ],
+      "correct": true,
+      "grounded": true,
+      "note": "valid but incomplete: the IRF3205 and IRF540N are not mentioned",
+      "seen_in": [
+        1,
+        2,
+        3
+      ],
+      "judge_reason": "The answer includes part numbers (IRF510, IRF530, IRF9640, IRFZ34) that do not match the reference answer (IRF3205, IRF540N, IRFZ44, IRF530). Additionally, it provides a specific power dissipation level (approximately 50 W) that is not mentioned in the reference. Therefore, it contradicts the reference by including incorrect part numbers and a different power dissipation value.",
+      "judge_ok": false,
+      "grounded_model": false,
+      "unsupported": [
+        "The IRF510 is suitable for commercial-industrial applications at power dissipation levels to approximately 50 W.",
+        "The IRF530 is suitable for commercial-industrial applications at power dissipation levels to approximately 50 W.",
+        "The IRF9640 is suitable for commercial-industrial applications at power dissipation levels to approximately 50 W.",
+        "The IRFZ34 is suitable for commercial-industrial applications at power dissipation levels to approximately 50 W."
+      ]
+    },
+    {
+      "id": "a08",
+      "case": "q06",
+      "answer": "The following transistors have a 175 °C operating temperature:\n- IRFZ34 (S1)\n- IRFZ44 (S2)\n- IRF510 (S3)\n- IRF530 (S4)\n- IRF540NPbF (S5)",
+      "found": true,
+      "cited": [
+        "IRFZ34_Vishay.pdf#1",
+        "IRFZ44_Vishay.pdf#1",
+        "IRF510_Vishay.pdf#1",
+        "IRF530_Vishay.pdf#1",
+        "IRF540N_Infineon.pdf#0"
+      ],
+      "correct": false,
+      "grounded": true,
+      "note": "incomplete: IRF3205 and IRF520 are missing; source labels (S1..S5) are left in the text",
+      "seen_in": [
+        1,
+        2,
+        3
+      ],
+      "judge_reason": "The answer lists the transistors IRFZ34, IRFZ44, IRF510, IRF530, and IRF540NPbF, which are all included in the reference answer. However, the reference specifies IRF540N, while the answer uses IRF540NPbF, which is a different part number. This discrepancy makes the answer incorrect.",
+      "judge_ok": false,
+      "grounded_model": true,
+      "unsupported": []
+    },
+    {
+      "id": "a09",
+      "case": "q07",
+      "answer": "AEC-Q101 is a qualification standard for automotive components that ensures high reliability. It is referenced in the context of several devices, including the 2N7002, BSS123Q, and DMN3404L, indicating that these components meet the stringent requirements for automotive applications.",
+      "found": true,
+      "cited": [
+        "2N7002_Diodes.pdf#2",
+        "BSS123Q.pdf#2",
+        "DMN3404L_Diodes copy.pdf#2",
+        "BSS123Q.pdf#0"
+      ],
+      "correct": true,
+      "grounded": true,
+      "note": "right and supported by the cited source",
+      "seen_in": [
+        1
+      ],
+      "judge_reason": "The answer provides the correct information about AEC-Q101 being a qualification standard for automotive components and mentions the same part numbers (2N7002, BSS123Q, DMN3404L) as the reference. It does not contradict any facts and adds harmless detail about reliability and stringent requirements, which does not affect the correctness of the core information.",
+      "judge_ok": true,
+      "grounded_model": false,
+      "unsupported": [
+        "The 2N7002 meets the AEC-Q101 qualification standard."
+      ]
+    },
+    {
+      "id": "a10",
+      "case": "q07",
+      "answer": "AEC-Q101 is a qualification standard for automotive components that ensures high reliability. It is mentioned in the context of the BSS123Q and DMN3404L MOSFETs, which are both qualified to AEC-Q101 standards for automotive applications (S2, S3).",
+      "found": true,
+      "cited": [
+        "BSS123Q.pdf#2",
+        "DMN3404L_Diodes copy.pdf#2"
+      ],
+      "correct": true,
+      "grounded": true,
+      "note": "right, but source labels (S2, S3) are left in the text",
+      "seen_in": [
+        2
+      ],
+      "judge_reason": "The answer correctly identifies AEC-Q101 as a qualification standard for automotive components and mentions the same part numbers (BSS123Q and DMN3404L) as the reference. However, it does not explicitly state that AEC-Q101 is specifically for discrete semiconductors, which is a key detail from the reference. Therefore, it is not fully aligned with the reference answer.",
+      "judge_ok": false,
+      "grounded_model": true,
+      "unsupported": []
+    },
+    {
+      "id": "a11",
+      "case": "q07",
+      "answer": "AEC-Q101 is a qualification standard for automotive components that ensures high reliability. It is referenced in the context of several devices, including the 2N7002, BSS123Q, and DMN3404L, indicating that these components meet the stringent requirements for automotive applications.",
+      "found": true,
+      "cited": [
+        "2N7002_Diodes.pdf#2",
+        "BSS123Q.pdf#2",
+        "DMN3404L_Diodes copy.pdf#2"
+      ],
+      "correct": true,
+      "grounded": true,
+      "note": "right and supported by the cited source",
+      "seen_in": [
+        3
+      ],
+      "judge_reason": "The answer correctly identifies AEC-Q101 as a qualification standard for automotive components and mentions the same part numbers (2N7002, BSS123Q, DMN3404L) as the reference. It also conveys the same meaning regarding reliability and automotive applications, even though the wording is different. Therefore, it aligns with the reference facts.",
+      "judge_ok": true,
+      "grounded_model": false,
+      "unsupported": [
+        "The 2N7002 meets the AEC-Q101 standard."
+      ]
+    },
+    {
+      "id": "a12",
+      "case": "q08",
+      "answer": "The TIP120 is an NPN Darlington transistor with a maximum current of 5 A and a maximum voltage of 60 V.",
+      "found": true,
+      "cited": [
+        "transistor_max_current.md#0",
+        "transistor_max_voltage.md#0"
+      ],
+      "correct": true,
+      "grounded": true,
+      "note": "right and supported by the cited source",
+      "seen_in": [
+        1,
+        2,
+        3
+      ],
+      "judge_reason": "The answer states the same facts as the reference, including the part number, type of transistor, maximum current, and maximum voltage, using slightly different wording. Therefore, it is correct.",
+      "judge_ok": true,
+      "grounded_model": false,
+      "unsupported": [
+        "The maximum current of the TIP120 is 5 A."
+      ]
+    },
+    {
+      "id": "a13",
+      "case": "q09",
+      "answer": "I could not find this in the documents available to you.",
+      "found": false,
+      "cited": [],
+      "correct": false,
+      "grounded": null,
+      "note": "not found, but the IRF9640 (P-channel, 11 A) is in transistor_max_current.md#0",
+      "seen_in": [
+        1,
+        2,
+        3
+      ],
+      "judge_reason": "The answer states that it could not find the information, while the reference clearly provides a specific part number (IRF9640) with a maximum current rating of 11 A. Therefore, the answer is incorrect as it contradicts the reference by not acknowledging the available information.",
+      "judge_ok": false,
+      "grounded_model": null,
+      "unsupported": []
+    },
+    {
+      "id": "a14",
+      "case": "q10",
+      "answer": "The 40V NPN small-signal transistors in SOT23 are MMBT2222A, MMBT3904, and MMBT4401. They are suitable for low to medium power amplification and switching applications.",
+      "found": true,
+      "cited": [
+        "MMBT2222A_Diodes.pdf#1",
+        "MMBT3904_Diodes.pdf#0",
+        "MMBT4401_Diodes.pdf#0"
+      ],
+      "correct": true,
+      "grounded": true,
+      "note": "right and supported by the cited source",
+      "seen_in": [
+        1,
+        2,
+        3
+      ],
+      "judge_reason": "The answer correctly lists the same part numbers (MMBT2222A, MMBT3904, MMBT4401) as the reference and maintains the same context regarding the type of transistor. The additional detail about suitability for low to medium power amplification and switching applications does not contradict the reference and is harmless.",
+      "judge_ok": true,
+      "grounded_model": false,
+      "unsupported": [
+        "The 40V NPN small-signal transistors in SOT23 are MMBT2222A, MMBT3904, and MMBT4401."
+      ]
+    }
+  ]
+}

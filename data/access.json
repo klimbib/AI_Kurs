@@ -1,0 +1,4 @@
+{
+  "_comment": "Default: a file directly in data/ gets the groups of the \"\" rule; a file in a subfolder gets the subfolder name as its group. Add a path prefix here (e.g. \"purchasing/\": [\"purchasing\", \"management\"]) to override that for a folder or file. The longest matching prefix wins.",
+  "": ["all"]
+}

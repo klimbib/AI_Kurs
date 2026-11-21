@@ -1,0 +1,3 @@
+Rewrite the last user question so that it can be understood without the conversation history.
+Resolve pronouns and references using the history. Do not answer the question.
+Return only the rewritten question as plain text, in the same language.

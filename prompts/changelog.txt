@@ -1,0 +1,23 @@
+judge: 
+v1- Initversion
+v2 - grounded.txt: only claims that are literally in the answer (no invented claims for short answers
+     like "33 A"); paraphrases, unit spellings and direct inferences count as supported.
+     Reason: calibration of judge-v1 grounded had agreement 0.23 and false_fail 0.54 (q02, q03, q05, q07, q10).
+     Also: the question is passed to the grounded judge (evals.py grounded(..., question)) and the prompt says to
+     use it only to read short answers (e.g. "50 A" = "max current of the IRFZ44 is 50 A"), never as evidence.
+     Note: the question is now also in the user message when running judge-v1 grounded.
+     correct.txt unchanged. Default: JUDGE in evals.py is now judge-v2
+     (judge-v1 via `python evals.py --judge-prompt judge-v1`).
+
+bot:
+v1 -Initversion
+v2 - system.txt: yes/no questions may be answered Yes/No when the sources allow the conclusion
+     (value comparison, transistor type). Reason: q20, q21 were refused (false_abstain) although the
+     chunk was retrieved. condense.txt unchanged. Not the default: PROMPT_VERSION in rag.py stays v1, because no 
+     essential improovment.
+v3 - system.txt: v2 plus a note on the source header: "document:" is the file title; for single datasheets it is
+     the component name, for overview/price tables (transistor_max_*.md, purchasing prices) it is only a general
+     title and the component names are in the text (table rows). Values must be attributed to the component named
+     in the text, not to the title alone. condense.txt unchanged (copy of v2).
+     Not the default: no improvement in evals, PROMPT_VERSION in rag.py stays v1 (v3 via `python evals.py --prompt v3`).
+

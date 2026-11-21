@@ -1,0 +1,508 @@
+[
+ {
+  "id": "q01",
+  "kind": "paraphrase",
+  "groups": [
+   "all"
+  ],
+  "question": "Find an automotive transistor with max temperature up to 175 °C",
+  "relevant": [
+   "transistor_max_temperature.md#0"
+  ],
+  "must": [
+   [
+    "IRF3205"
+   ]
+  ],
+  "reference": "Transistors with 175 °C max temperature: IRF3205, IRF510, IRF520, IRF530, IRF540N, IRFZ34, IRFZ44."
+ },
+ {
+  "id": "q02",
+  "kind": "exact",
+  "groups": [
+   "all"
+  ],
+  "question": "Which maximum current has transistor type IRF540N?",
+  "relevant": [
+   "transistor_max_current.md#0"
+  ],
+  "must": [
+   [
+    "33"
+   ]
+  ],
+  "reference": "33 A."
+ },
+ {
+  "id": "q03",
+  "kind": "exact",
+  "groups": [
+   "all"
+  ],
+  "question": "What is the maximum voltage of the TIP120?",
+  "relevant": [
+   "transistor_max_voltage.md#0"
+  ],
+  "must": [
+   [
+    "60"
+   ]
+  ],
+  "reference": "60 V."
+ },
+ {
+  "id": "q04",
+  "kind": "paraphrase",
+  "groups": [
+   "all"
+  ],
+  "question": "Find a fast switching high frequency transistor with max. current above 30 A",
+  "relevant": [
+   "IRF540N_Infineon.pdf#0",
+   "IRF3205_Infineon.pdf#0",
+   "IRFZ44_Vishay.pdf#1",
+   "transistor_max_current.md#0"
+  ],
+  "must": [
+   [
+    "IRF3205",
+    "IRFZ44",
+    "IRF540N"
+   ]
+  ],
+  "reference": "IRF3205 (100 A), IRFZ44 (50 A) or IRF540N (33 A)."
+ },
+ {
+  "id": "q05",
+  "kind": "paraphrase",
+  "groups": [
+   "all"
+  ],
+  "question": "Find transistors with high power dissipation",
+  "relevant": [
+   "IRF3205_Infineon.pdf#1",
+   "IRF540N_Infineon.pdf#1",
+   "IRFZ44_Vishay.pdf#2",
+   "IRF530_Vishay.pdf#2"
+  ],
+  "must": [
+   [
+    "IRF3205",
+    "IRF540N",
+    "IRFZ44",
+    "IRF530"
+   ]
+  ],
+  "reference": "Power MOSFETs such as IRF3205, IRF540N, IRFZ44 and IRF530."
+ },
+ {
+  "id": "q06",
+  "kind": "paraphrase",
+  "groups": [
+   "all"
+  ],
+  "question": "Which transistors have maximum operating temperature 175 °C?",
+  "relevant": [
+   "transistor_max_temperature.md#0"
+  ],
+  "must": [
+   [
+    "IRF3205",
+    "IRF510",
+    "IRF520",
+    "IRF530",
+    "IRF540N",
+    "IRFZ34",
+    "IRFZ44"
+   ]
+  ],
+  "reference": "IRF3205, IRF510, IRF520, IRF530, IRF540N, IRFZ34, IRFZ44."
+ },
+ {
+  "id": "q07",
+  "kind": "paraphrase",
+  "groups": [
+   "all"
+  ],
+  "question": "AEC-Q101",
+  "relevant": [
+   "2N7002_Diodes.pdf#2",
+   "BSS123Q.pdf#0",
+   "BSS123Q.pdf#2",
+   "DMN3404L_Diodes copy.pdf#2"
+  ],
+  "must": [
+   [
+    "2N7002",
+    "BSS123",
+    "DMN3404L"
+   ]
+  ],
+  "reference": "AEC-Q101 is the automotive qualification standard for discrete semiconductors, e.g. 2N7002, BSS123Q, DMN3404L."
+ },
+ {
+  "id": "q08",
+  "kind": "exact",
+  "groups": [
+   "all"
+  ],
+  "question": "NPN Darlington transistor TIP120",
+  "relevant": [
+   "TIP120_Adafruit.pdf#0",
+   "TIP120_Adafruit.pdf#1"
+  ],
+  "must": [
+   [
+    "TIP120"
+   ],
+   [
+    "Darlington"
+   ]
+  ],
+  "reference": "The TIP120 is an NPN Darlington power transistor (5 A, 60 V)."
+ },
+ {
+  "id": "q09",
+  "kind": "paraphrase",
+  "groups": [
+   "all"
+  ],
+  "question": "Find a P-channel MOSFET with max current above 10 A",
+  "relevant": [
+   "transistor_max_current.md#0"
+  ],
+  "must": [
+   [
+    "IRF9640"
+   ]
+  ],
+  "reference": "IRF9640 (11 A)."
+ },
+ {
+  "id": "q10",
+  "kind": "paraphrase",
+  "groups": [
+   "all"
+  ],
+  "question": "40V NPN small-signal transistor in SOT23",
+  "relevant": [
+   "MMBT2222A_Diodes.pdf#1",
+   "MMBT3904_Diodes.pdf#0",
+   "transistor_max_voltage.md#0"
+  ],
+  "must": [
+   [
+    "MMBT2222A",
+    "MMBT3904",
+    "MMBT4401"
+   ]
+  ],
+  "reference": "MMBT2222A, MMBT3904 or MMBT4401."
+ },
+ {
+  "id": "q11",
+  "kind": "paraphrase",
+  "groups": [
+   "all"
+  ],
+  "question": "Which transistors can handle more than 100 V?",
+  "relevant": [
+   "transistor_max_voltage.md#0"
+  ],
+  "must": [
+   [
+    "IRF640",
+    "IRF9640",
+    "MMBT5401",
+    "MMBT5551"
+   ]
+  ],
+  "reference": "IRF640 (200 V), IRF9640 (200 V), MMBT5401 (150 V), MMBT5551 (160 V)."
+ },
+ {
+  "id": "q12",
+  "kind": "paraphrase",
+  "groups": [
+   "all"
+  ],
+  "question": "Which MOSFET is fully avalanche rated?",
+  "relevant": [
+   "IRF3205_Infineon.pdf#0",
+   "IRF540N_Infineon.pdf#0"
+  ],
+  "must": [
+   [
+    "IRF3205",
+    "IRF540N"
+   ]
+  ],
+  "reference": "IRF3205 and IRF540N."
+ },
+ {
+  "id": "q13",
+  "kind": "exact",
+  "groups": [
+   "all"
+  ],
+  "question": "Which PNP transistor is complementary to the MMBT2222A?",
+  "relevant": [
+   "MMBT2222A_Diodes.pdf#1"
+  ],
+  "must": [
+   [
+    "MMBT2907A"
+   ]
+  ],
+  "reference": "MMBT2907A."
+ },
+ {
+  "id": "q14",
+  "kind": "deutsch",
+  "groups": [
+   "all"
+  ],
+  "question": "Welche Transistoren haben eine maximale Temperatur von 175 °C?",
+  "relevant": [
+   "transistor_max_temperature.md#0"
+  ],
+  "must": [
+   [
+    "IRF3205",
+    "IRF510",
+    "IRF520",
+    "IRF530",
+    "IRF540N",
+    "IRFZ34",
+    "IRFZ44"
+   ]
+  ],
+  "reference": "IRF3205, IRF510, IRF520, IRF530, IRF540N, IRFZ34, IRFZ44."
+ },
+ {
+  "id": "q15",
+  "kind": "deutsch",
+  "groups": [
+   "all"
+  ],
+  "question": "Finde einen Leistungs-MOSFET für hohe Ströme über 30 A",
+  "relevant": [
+   "transistor_max_current.md#0"
+  ],
+  "must": [
+   [
+    "IRF3205",
+    "IRFZ44",
+    "IRF540N"
+   ]
+  ],
+  "reference": "IRF3205 (100 A), IRFZ44 (50 A) oder IRF540N (33 A)."
+ },
+ {
+  "id": "q16",
+  "kind": "deutsch",
+  "groups": [
+   "all"
+  ],
+  "question": "Wie viel Strom verträgt der IRFZ44 maximal?",
+  "relevant": [
+   "transistor_max_current.md#0"
+  ],
+  "must": [
+   [
+    "50"
+   ]
+  ],
+  "reference": "50 A."
+ },
+ {
+  "id": "q17",
+  "kind": "deutsch",
+  "groups": [
+   "all"
+  ],
+  "question": "Welcher Transistor ist ein NPN-Darlington-Transistor?",
+  "relevant": [
+   "TIP120_Adafruit.pdf#0",
+   "transistor_max_current.md#0"
+  ],
+  "must": [
+   [
+    "TIP120"
+   ]
+  ],
+  "reference": "Der TIP120."
+ },
+ {
+  "id": "q18",
+  "kind": "yes_no",
+  "groups": [
+   "all"
+  ],
+  "question": "Is the TIP120 a Darlington transistor?",
+  "relevant": [
+   "TIP120_Adafruit.pdf#0",
+   "TIP120_Adafruit.pdf#1"
+  ],
+  "must": [
+   [
+    "yes"
+   ]
+  ],
+  "reference": "Yes, the TIP120 is an NPN Darlington transistor."
+ },
+ {
+  "id": "q19",
+  "kind": "yes_no",
+  "groups": [
+   "all"
+  ],
+  "question": "Is the IRF3205 rated for an maximum operating temperature up to 175 °C?",
+  "relevant": [
+   "transistor_max_temperature.md#0"
+  ],
+  "must": [
+   [
+    "yes"
+   ]
+  ],
+  "reference": "Yes, 175 °C."
+ },
+ {
+  "id": "q20",
+  "kind": "yes_no",
+  "groups": [
+   "all"
+  ],
+  "question": "Can the BSS84 handle more than 100 V?",
+  "relevant": [
+   "transistor_max_voltage.md#0"
+  ],
+  "must": [
+   [
+    "no,",
+    "no.",
+    "not",
+    "cannot"
+   ]
+  ],
+  "reference": "No. The BSS84 is rated for 50 V."
+ },
+ {
+  "id": "q21",
+  "kind": "yes_no",
+  "groups": [
+   "all"
+  ],
+  "question": "Is the MMBT3904 a PNP transistor?",
+  "relevant": [
+   "MMBT3904_Diodes.pdf#0"
+   
+  ],
+  "must": [
+   [
+    "no,",
+    "no.",
+    "not"
+   ]
+  ],
+  "reference": "No, the MMBT3904 is an NPN transistor."
+ },
+ {
+  "id": "q22",
+  "kind": "access",
+  "groups": [
+   "purchasing"
+  ],
+  "question": "What is the price per 1000 pieces of the IRF540N?",
+  "relevant": [
+   "purchasing/transistor_prices.md#0"
+  ],
+  "must": [
+   [
+    "520"
+   ]
+  ],
+  "reference": "520.00 EUR."
+ },
+ {
+  "id": "q23",
+  "kind": "access",
+  "groups": [
+   "purchasing"
+  ],
+  "question": "Which transistors cost less than 50 EUR per 1000 pieces?",
+  "relevant": [
+   "purchasing/transistor_prices.md#0"
+  ],
+  "must": [
+   [
+    "2N7002",
+    "MMBT3904",
+    "BSS123",
+    "MMBT2222A"
+   ]
+  ],
+  "reference": "2N7002, BSS123, MMBT2222A, MMBT2907A, MMBT3904, MMBT4401, MMBT4403, MMBT5401, MMBT5551."
+ },
+ {
+  "id": "q24",
+  "kind": "access",
+  "groups": [
+   "purchasing"
+  ],
+  "question": "Welcher P-Kanal-MOSFET ist beim Einkauf am günstigsten?",
+  "relevant": [
+   "purchasing/transistor_prices.md#0"
+  ],
+  "must": [
+   [
+    "BSS84"
+   ]
+  ],
+  "reference": "MMBT2907A mit einem Preis von 32,00 EUR."
+ },
+ {
+  "id": "q25",
+  "kind": "no_answer",
+  "groups": [
+   "all"
+  ],
+  "question": "What is the price per 1000 pieces of the IRF540N?",
+  "relevant": [],
+  "must": [],
+  "reference": "Not in the documents this user may read."
+ },
+ {
+  "id": "q26",
+  "kind": "access",
+  "groups": [
+   "all"
+  ],
+  "question": "Which transistors cost less than 50 EUR per 1000 pieces?",
+  "relevant": [],
+  "must": [],
+  "reference": "Not in the documents this user may read."
+ },
+ {
+  "id": "q27",
+  "kind": "no_answer",
+  "groups": [
+   "all"
+  ],
+  "question": "What is the maximum collector current of the BC547?",
+  "relevant": [],
+  "must": [],
+  "reference": "Not in the documents: BC547 is not among the transistors."
+ },
+ {
+  "id": "q28",
+  "kind": "no_answer",
+  "groups": [
+   "all"
+  ],
+  "question": "Which GaN transistor has the lowest on-resistance?",
+  "relevant": [],
+  "must": [],
+  "reference": "Not in the documents: no GaN transistors are listed."
+ }
+]
