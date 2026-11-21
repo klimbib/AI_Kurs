@@ -1,0 +1,327 @@
+{
+  "dataset_version": "2757ad3ee8b68c78",
+  "pipeline_version": "ingest-v1",
+  "created_at": "2026-11-21T07:33:28+00:00",
+  "files": {
+    "2N7002_Diodes.pdf": {
+      "raw_hash": "3984debf5b29376201b1042ba3d174c38f6dc6023ffec218d2f95ea843dc4d20",
+      "doc_hash": "0fce363bad87ab6d3b8de6686a3a1555061a152ec918405c56d89ddf932458e2",
+      "status": "ok",
+      "note": "",
+      "title": "2N7002",
+      "effective": null,
+      "chunks": 6,
+      "pipeline_version": "ingest-v1"
+    },
+    "BSS123_Diodes.pdf": {
+      "raw_hash": "52dc8a71d574d9c87b9d30ecc6f463c3ab26b555a9ef378c98c57fc7947ff992",
+      "doc_hash": "b1f3308eebf55c6a29ac988fd8c4e0dd2f9dba3396fff66fd982162519145786",
+      "status": "ok",
+      "note": "",
+      "title": "BSS123",
+      "effective": null,
+      "chunks": 6,
+      "pipeline_version": "ingest-v1"
+    },
+    "BSS123Q.pdf": {
+      "raw_hash": "a24f18391556cceea95cdff81dfaae3bc09f59af486082f2f5879595a9b3904a",
+      "doc_hash": "282cef5eeca3db204f9b66181914a5d498cbab62625697b5dc5cd75abf5a99da",
+      "status": "ok",
+      "note": "",
+      "title": "BSS123Q",
+      "effective": null,
+      "chunks": 6,
+      "pipeline_version": "ingest-v1"
+    },
+    "BSS138_Diodes.pdf": {
+      "raw_hash": "c93dcb33f41424e6a446a34f4222177b3a94e7dc27d2e2efb5e39eb245de3e17",
+      "doc_hash": "1371845a16841ab5888bffc355c927e0bb2ea6453db99f6849b510f7cc4907ab",
+      "status": "ok",
+      "note": "",
+      "title": "BSS138",
+      "effective": null,
+      "chunks": 7,
+      "pipeline_version": "ingest-v1"
+    },
+    "BSS84_Diodes.pdf": {
+      "raw_hash": "a4e89efffb9e0283940e28eba4dc23fad02598de2836ab470ec534f5b1b1341e",
+      "doc_hash": "e78e7e5a09e73f0497f88dc88ed2c298b9f016dc821d15be1da9d018bb824b70",
+      "status": "ok",
+      "note": "",
+      "title": "BSS84",
+      "effective": null,
+      "chunks": 7,
+      "pipeline_version": "ingest-v1"
+    },
+    "DMG2302U_Diodes.pdf": {
+      "raw_hash": "f0592d46b17114e8b974cc11bd0e04d05e5e69e09e8eb6c00aee272520741f13",
+      "doc_hash": "475b34ae793dc3ea9663682fb49f3dc2e2ff690ab47da4d9439fe7ef9ee83544",
+      "status": "ok",
+      "note": "",
+      "title": "DMG2302U",
+      "effective": null,
+      "chunks": 3,
+      "pipeline_version": "ingest-v1"
+    },
+    "DMN3404L_Diodes copy.pdf": {
+      "raw_hash": "d3d7fd9f4c1bedb7e55b4e877ab3924af3683e5addeb88a958ddc9a15ab49d59",
+      "doc_hash": "f5eeadc295b2256acaa190fbf7efed690631bd80cea1fa1d5d87cbd32814de1b",
+      "status": "ok",
+      "note": "",
+      "title": "DMN3404L",
+      "effective": null,
+      "chunks": 6,
+      "pipeline_version": "ingest-v1"
+    },
+    "DMN3404L_Diodes.pdf": {
+      "raw_hash": "d3d7fd9f4c1bedb7e55b4e877ab3924af3683e5addeb88a958ddc9a15ab49d59",
+      "doc_hash": "f5eeadc295b2256acaa190fbf7efed690631bd80cea1fa1d5d87cbd32814de1b",
+      "status": "exact_duplicate",
+      "note": "same content as DMN3404L_Diodes copy.pdf",
+      "title": "DMN3404L",
+      "effective": null,
+      "chunks": 0,
+      "pipeline_version": "ingest-v1"
+    },
+    "DMP2305U_Diodes.pdf": {
+      "raw_hash": "71685677bff30428e4cabb0a04c04aa840d4dbadaae04467085e953891dbc27d",
+      "doc_hash": "7d0856b13dfeeddc6cbf77b29dd3cc4e6dd8a0726039496c75d96aaa0a93aa6d",
+      "status": "ok",
+      "note": "",
+      "title": "DMP2305U",
+      "effective": null,
+      "chunks": 7,
+      "pipeline_version": "ingest-v1"
+    },
+    "DMP3099L_Diodes.pdf": {
+      "raw_hash": "06f3030318ba16b229928e1766aa85ade37b92dba7cdcb99a06b6eb9566b442c",
+      "doc_hash": "3f1bf1089378a6a38c3a7d3d4baa363459f49e17f7b37b384d44de4c9cc01268",
+      "status": "ok",
+      "note": "",
+      "title": "DMP3099L",
+      "effective": null,
+      "chunks": 7,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRF3205_Infineon.pdf": {
+      "raw_hash": "6253ab718ed28bb5c138951b5c144929b5b4eef3094b907aac920fb0ce695231",
+      "doc_hash": "fde8bc98d6a621dc138aa9484f01fcdf6d794b20138c52dc5bbe849dfc7f05ae",
+      "status": "ok",
+      "note": "",
+      "title": "Datasheet IRF3205PbF",
+      "effective": null,
+      "chunks": 2,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRF510_Vishay.pdf": {
+      "raw_hash": "cb34415d97792c0cbd84967dc800b545cc89268632b579fb6bcb9ed79566508c",
+      "doc_hash": "b2d41cb46b8689cacabdee7f928a51c6046a3f5675aaa01289e90969985b2f75",
+      "status": "ok",
+      "note": "",
+      "title": "IRF510",
+      "effective": null,
+      "chunks": 5,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRF520_Vishay.pdf": {
+      "raw_hash": "a6db521580f9ba0e9bdd02d50fd6ff418c39d0f83287ff8dea42eb7596bd26cc",
+      "doc_hash": "695c3943e6a7473a450b859b011eca74eca803bbfe5af35447c631b208a0af22",
+      "status": "near_duplicate",
+      "note": "older version of IRF530_Vishay.pdf (jaccard 0.81)",
+      "title": "IRF520",
+      "effective": null,
+      "chunks": 0,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRF530_Vishay.pdf": {
+      "raw_hash": "4322080cf8686bb20e001e03370188a4627c230760bd988490918a0d9fcc8b9b",
+      "doc_hash": "753adb6756787bec5045eee23e7ff4ee1252d64c370814e7b89c6e068eed4e5d",
+      "status": "ok",
+      "note": "",
+      "title": "IRF530",
+      "effective": null,
+      "chunks": 5,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRF540N_Infineon.pdf": {
+      "raw_hash": "a3fd62a76cc88828f98f0c9bc541d62c225109ad1319fad93c75e92eb9653155",
+      "doc_hash": "3c3201d7771b0359eb4d96176995ecdaec38dbc5d31c75552eaff56fa77967d0",
+      "status": "ok",
+      "note": "",
+      "title": "Datasheet IRF540NPbF",
+      "effective": null,
+      "chunks": 2,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRF640_Vishay.pdf": {
+      "raw_hash": "3894b4ed8d9e05c0ee1529062b35da32d18b65e27746dcd4fd4b6bd3dd769c58",
+      "doc_hash": "ee95071f603739c26f13001fcb82c1d593fcbe852f08eeb1a2fda31a8bc150ea",
+      "status": "ok",
+      "note": "",
+      "title": "IRF640",
+      "effective": null,
+      "chunks": 5,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRF9640_Vishay.pdf": {
+      "raw_hash": "71df08f85e4826f9ab0c022a17dfb35ef2aee90097fe46f3bc959ac257a2461b",
+      "doc_hash": "d8625596ac2c73b816c3204f261bb3061ecd5c5b2e94e1fa8d39556b7145e4bc",
+      "status": "ok",
+      "note": "",
+      "title": "IRF9640",
+      "effective": null,
+      "chunks": 5,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRFZ34_Vishay.pdf": {
+      "raw_hash": "c52bd9e34115bb88a7e0a366c8d50e11b3e3aba193b13d38c953ad761ade1a0b",
+      "doc_hash": "f4cad9939182e306fbe3b3954a1e0fe757500c7fb502af192a17267ff1f58a11",
+      "status": "ok",
+      "note": "",
+      "title": "IRFZ34",
+      "effective": null,
+      "chunks": 5,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRFZ44_Vishay.pdf": {
+      "raw_hash": "9e8fa18bdd78190a41fa07dc3d4258ac023a4d1f5820e1eeddb4259f2a157dc0",
+      "doc_hash": "4c7f5f8614077bc344c5b38c4bcfaf0b95cb62da5ca7a788b84895aaed0e1d13",
+      "status": "ok",
+      "note": "",
+      "title": "IRFZ44",
+      "effective": null,
+      "chunks": 5,
+      "pipeline_version": "ingest-v1"
+    },
+    "IRLZ44N_Infineon.pdf": {
+      "raw_hash": "b4f1361a4486b8ec84206012a3e4a985111203d140fa6da8d4190b867c9ba077",
+      "doc_hash": "",
+      "status": "ocr_required",
+      "note": "no text layer: send to OCR, not to the index",
+      "title": "",
+      "effective": null,
+      "chunks": 0,
+      "pipeline_version": "ingest-v1"
+    },
+    "MMBT2222A_Diodes.pdf": {
+      "raw_hash": "02047f112848a0d26b37670d1d155b83a5a21248c342fd9b4354d3af8207d68b",
+      "doc_hash": "80fe12ce787c56085ef71eba22902020fa6d1b3167392e69da2b78e5dbe5c7fb",
+      "status": "ok",
+      "note": "",
+      "title": "MMBT2222A",
+      "effective": null,
+      "chunks": 6,
+      "pipeline_version": "ingest-v1"
+    },
+    "MMBT2907A_Diodes.pdf": {
+      "raw_hash": "02047f112848a0d26b37670d1d155b83a5a21248c342fd9b4354d3af8207d68b",
+      "doc_hash": "80fe12ce787c56085ef71eba22902020fa6d1b3167392e69da2b78e5dbe5c7fb",
+      "status": "exact_duplicate",
+      "note": "same content as MMBT2222A_Diodes.pdf",
+      "title": "MMBT2222A",
+      "effective": null,
+      "chunks": 0,
+      "pipeline_version": "ingest-v1"
+    },
+    "MMBT3904_Diodes.pdf": {
+      "raw_hash": "483284b10e2a58c8ddafea3c1c3f77388edf9efd394ca30f9559e605f644f2dc",
+      "doc_hash": "501701bbd5680d160b95d10053dc8d850a4f5ec479adf59df58580d8e74b6ea4",
+      "status": "ok",
+      "note": "",
+      "title": "MMBT3904",
+      "effective": null,
+      "chunks": 5,
+      "pipeline_version": "ingest-v1"
+    },
+    "MMBT4401_Diodes.pdf": {
+      "raw_hash": "6f0205d39db55c44b1062164222a6ab9f61ed1f58050b5028a75940d0833b46f",
+      "doc_hash": "2b33ae71fdae57319e084c5c3aa2383b63a9c8ed60aba6d5ba64d26650079c49",
+      "status": "ok",
+      "note": "",
+      "title": "MMBT4401",
+      "effective": null,
+      "chunks": 5,
+      "pipeline_version": "ingest-v1"
+    },
+    "MMBT4403_Diodes.pdf": {
+      "raw_hash": "da5e7e6f91c4cb9da387ad862ecb3a2fc548c4f5dca8355e642394709c678ce5",
+      "doc_hash": "ec07ac7367c0655336e22011780cebc5c4159e736a5ba69ae1ea7192f4fc547a",
+      "status": "ok",
+      "note": "",
+      "title": "MMBT4403",
+      "effective": null,
+      "chunks": 6,
+      "pipeline_version": "ingest-v1"
+    },
+    "MMBT5401_Diodes.pdf": {
+      "raw_hash": "1515e425149f78c5e350f8c09aa98ab5ed6b1745420c8f7ef40811d783f71ab2",
+      "doc_hash": "42b67fbacf7e9b7d33f8e2083e63499157bfc47d16c19d6e9681deb0f2f911b6",
+      "status": "ok",
+      "note": "",
+      "title": "MMBT5401",
+      "effective": null,
+      "chunks": 7,
+      "pipeline_version": "ingest-v1"
+    },
+    "MMBT5551_Diodes.pdf": {
+      "raw_hash": "f1eb3b2c83a35a2fc8219d9e1d3decfd578facb85b3bd1b04e5fc67f75fca317",
+      "doc_hash": "e054defd24a8d7c3c4331735884c8efc50ea62c9b477465ff9eddcc571d37f4a",
+      "status": "ok",
+      "note": "",
+      "title": "MMBT5551",
+      "effective": null,
+      "chunks": 5,
+      "pipeline_version": "ingest-v1"
+    },
+    "purchasing/transistor_prices.md": {
+      "raw_hash": "7a11a4befd6d0c63cd2037805534cadde205daa5112acf6e6276416609721a96",
+      "doc_hash": "f70add3f9e83651312ae9331dbcfef3e018a1a3daa48168a2c1f51cbbb7db37f",
+      "status": "ok",
+      "note": "",
+      "title": "Transistor Purchasing Prices (EXAMPLE DATA - not real prices)",
+      "effective": null,
+      "chunks": 1,
+      "pipeline_version": "ingest-v1"
+    },
+    "TIP120_Adafruit.pdf": {
+      "raw_hash": "2299c486e5fc96187ea750980f001cba28b72703ac0cc0e3489a5f23b3149e25",
+      "doc_hash": "1960e7e529dbd49f93b19f825d7a991aac5bdd4142701934153112d5d8c8d965",
+      "status": "ok",
+      "note": "",
+      "title": "TIP120/TIP121/TIP122 — NPN Epitaxial Darlington Transistor",
+      "effective": null,
+      "chunks": 3,
+      "pipeline_version": "ingest-v1"
+    },
+    "transistor_max_current.md": {
+      "raw_hash": "fcb2e8e0b6fd59c1527205d7aff211d00f0568350e447d1d2736639710dacf6f",
+      "doc_hash": "f172af5a04822a983ff7ec8c800ee46cf97255f0ef0124992be5de4d039042a5",
+      "status": "ok",
+      "note": "",
+      "title": "Transistor Maximum Current Specifications",
+      "effective": null,
+      "chunks": 1,
+      "pipeline_version": "ingest-v1"
+    },
+    "transistor_max_temperature.md": {
+      "raw_hash": "0672ce451773c4ff19a08833fd207e63ee4e034bd8fd0e11defe7fdcb07e1699",
+      "doc_hash": "d6e022de464d80082fc7b85429e013481820fccc47437e832e2baf8a64409c53",
+      "status": "ok",
+      "note": "",
+      "title": "Transistor Maximum Temperature Specifications",
+      "effective": null,
+      "chunks": 1,
+      "pipeline_version": "ingest-v1"
+    },
+    "transistor_max_voltage.md": {
+      "raw_hash": "98a673c092845a467e3eddf45abad12bed01a53aa7cb00e0dbb551ae2eccb501",
+      "doc_hash": "408f2f99e0ff1ed40b4881fe7b2b75a2dd2c70b698865e8037664bb868a3e220",
+      "status": "ok",
+      "note": "",
+      "title": "Transistor Maximum Voltage Specifications",
+      "effective": null,
+      "chunks": 1,
+      "pipeline_version": "ingest-v1"
+    }
+  }
+}

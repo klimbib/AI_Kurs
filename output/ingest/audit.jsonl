@@ -1,0 +1,406 @@
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "2N7002_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "BSS123_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "BSS123Q.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "BSS138_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "BSS84_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "DMG2302U_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "DMN3404L_Diodes copy.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "DMN3404L_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "DMP2305U_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "DMP3099L_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRF3205_Infineon.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRF510_Vishay.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRF520_Vishay.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRF530_Vishay.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRF540N_Infineon.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRF640_Vishay.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRF9640_Vishay.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRFZ34_Vishay.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRFZ44_Vishay.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "IRLZ44N_Infineon.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "MMBT2222A_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "MMBT2907A_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "MMBT3904_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "MMBT4401_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "MMBT4403_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "MMBT5401_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "MMBT5551_Diodes.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "TIP120_Adafruit.pdf", "error": "TypeError: 'int' object is not iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "transistor_max_current.md", "error": "TypeError: argument of type 'int' is not a container or iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "transistor_max_temperature.md", "error": "TypeError: argument of type 'int' is not a container or iterable"}
+{"ts": "2026-11-11T20:38:06+00:00", "event": "error", "source": "transistor_max_voltage.md", "error": "TypeError: argument of type 'int' is not a container or iterable"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "b303752545e0"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 7, "doc_hash": "7c463a861a39"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 6, "doc_hash": "70013e934a26"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 7, "doc_hash": "05fec6df3f67"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 7, "doc_hash": "95f81d9a6e69"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 3, "doc_hash": "dbfff406760b"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "2b6dd9dca6a8"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "f5bb40e6efc7"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 7, "doc_hash": "d6f5866df9b8"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "IRLZ44N_Infineon.pdf", "chunks": 26, "doc_hash": "90ddc4836ce6"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "c765060964d4"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "252813ee42ca"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 6, "doc_hash": "2da293c99671"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 6, "doc_hash": "935bb7472db8"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 7, "doc_hash": "7e5ad3f60e04"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 6, "doc_hash": "acfd9c9c3b05"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 3, "doc_hash": "6c3bbc46761b"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 2, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 2, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T20:38:45+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 2, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "b303752545e0"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 7, "doc_hash": "7c463a861a39"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 6, "doc_hash": "70013e934a26"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 7, "doc_hash": "05fec6df3f67"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 7, "doc_hash": "95f81d9a6e69"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 3, "doc_hash": "dbfff406760b"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "2b6dd9dca6a8"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "f5bb40e6efc7"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 7, "doc_hash": "d6f5866df9b8"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "IRLZ44N_Infineon.pdf", "chunks": 26, "doc_hash": "90ddc4836ce6"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "c765060964d4"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "252813ee42ca"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 6, "doc_hash": "2da293c99671"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 6, "doc_hash": "935bb7472db8"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 7, "doc_hash": "7e5ad3f60e04"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 6, "doc_hash": "acfd9c9c3b05"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 3, "doc_hash": "6c3bbc46761b"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 1, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 1, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T20:56:22+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 1, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "0fce363bad87"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 6, "doc_hash": "b1f3308eebf5"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 6, "doc_hash": "282cef5eeca3"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 7, "doc_hash": "1371845a1684"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 7, "doc_hash": "e78e7e5a09e7"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 3, "doc_hash": "475b34ae793d"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "f5eeadc295b2"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "7d0856b13dfe"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 7, "doc_hash": "3f1bf1089378"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "IRLZ44N_Infineon.pdf", "chunks": 26, "doc_hash": "90ddc4836ce6"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "80fe12ce787c"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "501701bbd568"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 5, "doc_hash": "2b33ae71fdae"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 6, "doc_hash": "ec07ac7367c0"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 7, "doc_hash": "42b67fbacf7e"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 5, "doc_hash": "e054defd24a8"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 3, "doc_hash": "1960e7e529db"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 1, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 1, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T21:05:42+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 1, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-11T21:13:11+00:00", "event": "ocr_required", "source": "IRLZ44N_Infineon.pdf"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "0fce363bad87"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 6, "doc_hash": "b1f3308eebf5"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 6, "doc_hash": "282cef5eeca3"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 7, "doc_hash": "1371845a1684"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 7, "doc_hash": "e78e7e5a09e7"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 3, "doc_hash": "475b34ae793d"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "f5eeadc295b2"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "7d0856b13dfe"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 7, "doc_hash": "3f1bf1089378"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "80fe12ce787c"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "501701bbd568"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 5, "doc_hash": "2b33ae71fdae"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 6, "doc_hash": "ec07ac7367c0"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 7, "doc_hash": "42b67fbacf7e"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 5, "doc_hash": "e054defd24a8"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 3, "doc_hash": "1960e7e529db"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 1, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 1, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T21:13:23+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 1, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-11T21:13:27+00:00", "event": "ocr_required", "source": "IRLZ44N_Infineon.pdf"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 9, "doc_hash": "ccf9a13b214a"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 8, "doc_hash": "40230dfbb757"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 9, "doc_hash": "9186c2f33192"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 9, "doc_hash": "53b15219b609"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 8, "doc_hash": "e471b0aafde1"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 7, "doc_hash": "a13d582c5b99"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 8, "doc_hash": "bbb70e22ebbe"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 9, "doc_hash": "9af8ac4cb19f"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 8, "doc_hash": "ae6b9d1f9847"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 5, "doc_hash": "16d3f9ab2588"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 6, "doc_hash": "2bf4e41b17ba"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "IRF520_Vishay.pdf", "chunks": 6, "doc_hash": "680738568fbf"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 6, "doc_hash": "8bf053e9437b"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 5, "doc_hash": "3d2152dff5c2"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 6, "doc_hash": "711f0c968e85"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 6, "doc_hash": "90ae3149f95c"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 6, "doc_hash": "f7a877c9dcbf"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 6, "doc_hash": "b723e302b5b2"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 8, "doc_hash": "7b7ff62bf937"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 8, "doc_hash": "bd9b55c9f4a8"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 8, "doc_hash": "e6fafcbe552a"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 8, "doc_hash": "9ba727eca147"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 9, "doc_hash": "3fd3ea784626"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 7, "doc_hash": "233d5d5c7451"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 2, "doc_hash": "48ecbf6b45b2"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 1, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 1, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T21:13:28+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 1, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-11T21:15:14+00:00", "event": "ocr_required", "source": "IRLZ44N_Infineon.pdf"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "0fce363bad87"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 6, "doc_hash": "b1f3308eebf5"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 6, "doc_hash": "282cef5eeca3"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 7, "doc_hash": "1371845a1684"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 7, "doc_hash": "e78e7e5a09e7"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 3, "doc_hash": "475b34ae793d"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "f5eeadc295b2"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "7d0856b13dfe"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 7, "doc_hash": "3f1bf1089378"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "80fe12ce787c"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "501701bbd568"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 5, "doc_hash": "2b33ae71fdae"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 6, "doc_hash": "ec07ac7367c0"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 7, "doc_hash": "42b67fbacf7e"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 5, "doc_hash": "e054defd24a8"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 3, "doc_hash": "1960e7e529db"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 1, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 1, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T21:15:26+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 1, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-11T21:23:41+00:00", "event": "ocr_required", "source": "IRLZ44N_Infineon.pdf"}
+{"ts": "2026-11-11T21:23:53+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T21:23:53+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "0fce363bad87"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 6, "doc_hash": "b1f3308eebf5"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 5, "doc_hash": "282cef5eeca3"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 6, "doc_hash": "1371845a1684"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 6, "doc_hash": "e78e7e5a09e7"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 2, "doc_hash": "475b34ae793d"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "f5eeadc295b2"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "7d0856b13dfe"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 6, "doc_hash": "3f1bf1089378"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "80fe12ce787c"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "501701bbd568"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 5, "doc_hash": "2b33ae71fdae"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 5, "doc_hash": "ec07ac7367c0"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 6, "doc_hash": "42b67fbacf7e"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 5, "doc_hash": "e054defd24a8"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 2, "doc_hash": "1960e7e529db"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 5, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 4, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T21:23:54+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 4, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-11T21:24:12+00:00", "event": "ocr_required", "source": "IRLZ44N_Infineon.pdf"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "0fce363bad87"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 6, "doc_hash": "b1f3308eebf5"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 6, "doc_hash": "282cef5eeca3"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 7, "doc_hash": "1371845a1684"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 7, "doc_hash": "e78e7e5a09e7"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 3, "doc_hash": "475b34ae793d"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "f5eeadc295b2"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "7d0856b13dfe"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 7, "doc_hash": "3f1bf1089378"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "80fe12ce787c"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "501701bbd568"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 5, "doc_hash": "2b33ae71fdae"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 6, "doc_hash": "ec07ac7367c0"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 7, "doc_hash": "42b67fbacf7e"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 5, "doc_hash": "e054defd24a8"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 3, "doc_hash": "1960e7e529db"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 1, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 1, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T21:24:25+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 1, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-11T21:28:02+00:00", "event": "ocr_required", "source": "IRLZ44N_Infineon.pdf"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "0fce363bad87"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 6, "doc_hash": "b1f3308eebf5"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 5, "doc_hash": "282cef5eeca3"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 6, "doc_hash": "1371845a1684"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 6, "doc_hash": "e78e7e5a09e7"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 2, "doc_hash": "475b34ae793d"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "f5eeadc295b2"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "7d0856b13dfe"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 6, "doc_hash": "3f1bf1089378"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "80fe12ce787c"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "501701bbd568"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 5, "doc_hash": "2b33ae71fdae"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 5, "doc_hash": "ec07ac7367c0"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 6, "doc_hash": "42b67fbacf7e"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 5, "doc_hash": "e054defd24a8"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 2, "doc_hash": "1960e7e529db"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 5, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 4, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T21:28:13+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 4, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-11T21:31:40+00:00", "event": "ocr_required", "source": "IRLZ44N_Infineon.pdf"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "0fce363bad87"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 6, "doc_hash": "b1f3308eebf5"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 6, "doc_hash": "282cef5eeca3"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 7, "doc_hash": "1371845a1684"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 7, "doc_hash": "e78e7e5a09e7"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 3, "doc_hash": "475b34ae793d"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "f5eeadc295b2"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "7d0856b13dfe"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 7, "doc_hash": "3f1bf1089378"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "80fe12ce787c"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "501701bbd568"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 5, "doc_hash": "2b33ae71fdae"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 6, "doc_hash": "ec07ac7367c0"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 7, "doc_hash": "42b67fbacf7e"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 5, "doc_hash": "e054defd24a8"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 3, "doc_hash": "1960e7e529db"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 1, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 1, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-11T21:31:51+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 1, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-13T21:13:04+00:00", "event": "ingested", "source": "purchasing/transistor_prices.md", "chunks": 1, "doc_hash": "f70add3f9e83"}
+{"ts": "2026-11-13T21:19:38+00:00", "event": "ocr_required", "source": "IRLZ44N_Infineon.pdf"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "0fce363bad87"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 6, "doc_hash": "b1f3308eebf5"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 6, "doc_hash": "282cef5eeca3"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 7, "doc_hash": "1371845a1684"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 7, "doc_hash": "e78e7e5a09e7"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 3, "doc_hash": "475b34ae793d"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "f5eeadc295b2"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "7d0856b13dfe"}
+{"ts": "2026-11-13T21:19:54+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 7, "doc_hash": "3f1bf1089378"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "80fe12ce787c"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "501701bbd568"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 5, "doc_hash": "2b33ae71fdae"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 6, "doc_hash": "ec07ac7367c0"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 7, "doc_hash": "42b67fbacf7e"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 5, "doc_hash": "e054defd24a8"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "purchasing/transistor_prices.md", "chunks": 1, "doc_hash": "f70add3f9e83"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 3, "doc_hash": "1960e7e529db"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 1, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 1, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-13T21:19:55+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 1, "doc_hash": "408f2f99e0ff"}
+{"ts": "2026-11-13T22:45:28+00:00", "event": "ocr_required", "source": "IRLZ44N_Infineon.pdf"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "exact_duplicate", "source": "DMN3404L_Diodes.pdf", "of": "DMN3404L_Diodes copy.pdf"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "exact_duplicate", "source": "MMBT2907A_Diodes.pdf", "of": "MMBT2222A_Diodes.pdf"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "near_duplicate", "source": "IRF520_Vishay.pdf", "kept": "IRF530_Vishay.pdf", "jaccard": 0.81}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "2N7002_Diodes.pdf", "chunks": 6, "doc_hash": "0fce363bad87"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "BSS123_Diodes.pdf", "chunks": 6, "doc_hash": "b1f3308eebf5"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "BSS123Q.pdf", "chunks": 6, "doc_hash": "282cef5eeca3"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "BSS138_Diodes.pdf", "chunks": 7, "doc_hash": "1371845a1684"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "BSS84_Diodes.pdf", "chunks": 7, "doc_hash": "e78e7e5a09e7"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "DMG2302U_Diodes.pdf", "chunks": 3, "doc_hash": "475b34ae793d"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "DMN3404L_Diodes copy.pdf", "chunks": 6, "doc_hash": "f5eeadc295b2"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "DMP2305U_Diodes.pdf", "chunks": 7, "doc_hash": "7d0856b13dfe"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "DMP3099L_Diodes.pdf", "chunks": 7, "doc_hash": "3f1bf1089378"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "IRF3205_Infineon.pdf", "chunks": 2, "doc_hash": "fde8bc98d6a6"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "IRF510_Vishay.pdf", "chunks": 5, "doc_hash": "b2d41cb46b86"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "IRF530_Vishay.pdf", "chunks": 5, "doc_hash": "753adb675678"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "IRF540N_Infineon.pdf", "chunks": 2, "doc_hash": "3c3201d7771b"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "IRF640_Vishay.pdf", "chunks": 5, "doc_hash": "ee95071f6037"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "IRF9640_Vishay.pdf", "chunks": 5, "doc_hash": "d8625596ac2c"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "IRFZ34_Vishay.pdf", "chunks": 5, "doc_hash": "f4cad9939182"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "IRFZ44_Vishay.pdf", "chunks": 5, "doc_hash": "4c7f5f861407"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "MMBT2222A_Diodes.pdf", "chunks": 6, "doc_hash": "80fe12ce787c"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "MMBT3904_Diodes.pdf", "chunks": 5, "doc_hash": "501701bbd568"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "MMBT4401_Diodes.pdf", "chunks": 5, "doc_hash": "2b33ae71fdae"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "MMBT4403_Diodes.pdf", "chunks": 6, "doc_hash": "ec07ac7367c0"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "MMBT5401_Diodes.pdf", "chunks": 7, "doc_hash": "42b67fbacf7e"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "MMBT5551_Diodes.pdf", "chunks": 5, "doc_hash": "e054defd24a8"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "purchasing/transistor_prices.md", "chunks": 1, "doc_hash": "f70add3f9e83"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "TIP120_Adafruit.pdf", "chunks": 3, "doc_hash": "1960e7e529db"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "transistor_max_current.md", "chunks": 1, "doc_hash": "f172af5a0482"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "transistor_max_temperature.md", "chunks": 1, "doc_hash": "d6e022de464d"}
+{"ts": "2026-11-13T22:45:41+00:00", "event": "ingested", "source": "transistor_max_voltage.md", "chunks": 1, "doc_hash": "408f2f99e0ff"}

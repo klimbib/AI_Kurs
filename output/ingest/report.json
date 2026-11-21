@@ -1,0 +1,183 @@
+{
+  "dataset_version": "2757ad3ee8b68c78",
+  "files": 32,
+  "skipped_unchanged": 32,
+  "docs": {
+    "2N7002_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 6
+    },
+    "BSS123_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 6
+    },
+    "BSS123Q.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 6
+    },
+    "BSS138_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 7
+    },
+    "BSS84_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 7
+    },
+    "DMG2302U_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 3
+    },
+    "DMN3404L_Diodes copy.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 6
+    },
+    "DMN3404L_Diodes.pdf": {
+      "status": "exact_duplicate",
+      "note": "same content as DMN3404L_Diodes copy.pdf",
+      "chunks": 0
+    },
+    "DMP2305U_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 7
+    },
+    "DMP3099L_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 7
+    },
+    "IRF3205_Infineon.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 2
+    },
+    "IRF510_Vishay.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 5
+    },
+    "IRF520_Vishay.pdf": {
+      "status": "near_duplicate",
+      "note": "older version of IRF530_Vishay.pdf (jaccard 0.81)",
+      "chunks": 0
+    },
+    "IRF530_Vishay.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 5
+    },
+    "IRF540N_Infineon.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 2
+    },
+    "IRF640_Vishay.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 5
+    },
+    "IRF9640_Vishay.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 5
+    },
+    "IRFZ34_Vishay.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 5
+    },
+    "IRFZ44_Vishay.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 5
+    },
+    "IRLZ44N_Infineon.pdf": {
+      "status": "ocr_required",
+      "note": "no text layer: send to OCR, not to the index",
+      "chunks": 0
+    },
+    "MMBT2222A_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 6
+    },
+    "MMBT2907A_Diodes.pdf": {
+      "status": "exact_duplicate",
+      "note": "same content as MMBT2222A_Diodes.pdf",
+      "chunks": 0
+    },
+    "MMBT3904_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 5
+    },
+    "MMBT4401_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 5
+    },
+    "MMBT4403_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 6
+    },
+    "MMBT5401_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 7
+    },
+    "MMBT5551_Diodes.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 5
+    },
+    "purchasing/transistor_prices.md": {
+      "status": "ok",
+      "note": "",
+      "chunks": 1
+    },
+    "TIP120_Adafruit.pdf": {
+      "status": "ok",
+      "note": "",
+      "chunks": 3
+    },
+    "transistor_max_current.md": {
+      "status": "ok",
+      "note": "",
+      "chunks": 1
+    },
+    "transistor_max_temperature.md": {
+      "status": "ok",
+      "note": "",
+      "chunks": 1
+    },
+    "transistor_max_voltage.md": {
+      "status": "ok",
+      "note": "",
+      "chunks": 1
+    }
+  },
+  "chunking": {
+    "fixed": {
+      "chunks": 0,
+      "starts_mid_sentence": 0,
+      "cut_tables": 0,
+      "avg_tokens": 0,
+      "max_tokens": 0
+    },
+    "by_pages": {
+      "chunks": 0,
+      "starts_mid_sentence": 0,
+      "cut_tables": 0,
+      "avg_tokens": 0,
+      "max_tokens": 0
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
     python starter/ingest.py             # ingest data/raw -> output/
     python starter/ingest.py --full      # ignore the manifest and re-ingest everything
-    python starter/check.py              # check the output against data/expected.json
+    
 
 Pipeline: extract text -> normalize -> deduplicate -> chunk -> attach metadata -> manifest.
 
